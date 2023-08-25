@@ -2,6 +2,7 @@
 <html data-wf-page="64daac65949f9b40709e609a" data-wf-site="64c565ae4e7720d70d1f3857"><head><link rel="preconnect" crossorigin="true" href="https://assets.website-files.com">{%- seo seo -%}
   <meta charset="utf-8">
   
+  
   <meta content="width=device-width, initial-scale=1" name="viewport">
   
   <link href="/assets/css/normalize.css" rel="stylesheet" type="text/css">
@@ -36,7 +37,7 @@ background:rgb(148, 148, 148);
     <div class="page-wrapper">
       <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
         <div class="div-block-7">
-          <a href="{{ links.23 }}" class="w-nav-brand"><img src="{{ images.2739296e.url }}" loading="lazy" alt="{{ images.2739296e.alt | trim | escape }}" class="image-4"></a>
+          <a href="{{ links.2f }}" class="w-nav-brand"><img src="{{ images.2739296e.url }}" loading="lazy" alt="{{ images.2739296e.alt | trim | escape }}" class="image-4"></a>
           <nav role="navigation" class="w-nav-menu">
             <a href="{{ links.2f }}" class="nav-link w-nav-link">{{ texts.2268ff }}</a>
             <a href="{{ links.-7eed85c2 }}" class="nav-link w-nav-link">{{ texts.4c7d2c0 }}</a>
@@ -66,7 +67,7 @@ background:rgb(148, 148, 148);
                 <div tmplayer-init="true" class="sp-track-wrapper">
                   <div class="sp-track">
                     <div class="sp-details-wrapper"><img loading="lazy" src="{{ f_profile-photo.url }}" alt="{{ f_profile-photo.alt }}" class="sp-thumbnail"></div>
-                    <div class="sp-controla-wrapper"><img src="{{ images.658a1156.url }}" loading="lazy" tmplayer-button="play" alt="{{ images.658a1156.alt | trim | escape }}" class="sp-play"><img src="{{ images.470f5d6a.url }}" loading="lazy" tmplayer-button="pause" alt="{{ images.470f5d6a.alt | trim | escape }}" class="sp-pause">
+                    {%- if f_audio-file -%}<div class="sp-controla-wrapper"><img src="{{ images.658a1156.url }}" loading="lazy" tmplayer-button="play" alt="{{ images.658a1156.alt | trim | escape }}" class="sp-play"><img src="{{ images.470f5d6a.url }}" loading="lazy" tmplayer-button="pause" alt="{{ images.470f5d6a.alt | trim | escape }}" class="sp-pause">
                       <div class="sp-media-player-bar-wrapper">
                         <div tmplayer-element="progress-bar-wrapper" class="sp-progress-bar-wrapper">
                           <div class="sp-progress-bar-background">
@@ -77,7 +78,7 @@ background:rgb(148, 148, 148);
                         </div>
                         <div tmplayer-element="duration" class="sp-duration">{{ texts.16b18a }}</div>
                       </div>
-                    </div>
+                    </div>{%- endif -%}
                     <div tmplayer-element="audio" class="true-media-player-single-track w-embed"><div tmplayer-meta="audio-url">{{ f_audio-file.url }}</div></div>
                   </div>
                 </div>
@@ -87,21 +88,23 @@ background:rgb(148, 148, 148);
         </div>
         <div id="w-node-c269fcfb-7db4-38a7-b4aa-aae4e5d4a491-709e609a" class="w-layout-layout quick-stack-7 wf-layout-layout">
           <div id="w-node-c269fcfb-7db4-38a7-b4aa-aae4e5d4a492-709e609a" class="w-layout-cell">
-            <div class="w-richtext">{{ content | markdown }}</div>
+            <div class="rich-text-block w-richtext">{{ content | markdown }}</div>
           </div>
           <div id="w-node-c269fcfb-7db4-38a7-b4aa-aae4e5d4a493-709e609a" class="w-layout-cell cell-15">
             <div class="highlight-border form-wrapper w-form">
-              <form id="email-form" name="email-form" data-name="email" method="get" class="form" data-wf-page-id="64daac65949f9b40709e609a" data-wf-element-id="155b6bd1-bab1-de81-4638-dc192b659715" data-netlify="true" data-ajax="true" data-content-type="application/x-www-form-urlencoded">
+              <form id="email-form" name="email-form" data-name="email" method="post" class="form" data-wf-page-id="64daac65949f9b40709e609a" data-wf-element-id="155b6bd1-bab1-de81-4638-dc192b659715" data-netlify="true" data-ajax="true" data-content-type="application/x-www-form-urlencoded">
                 <div class="div-block-37">
                   <h3 class="heading-10">{{ texts.7f2746de }}</h3>
                   <div>{{ texts.-3aa45cdc }}</div>
-                </div><input type="text" class="text-field w-input" maxlength="256" name="name" data-name="Name" placeholder="Full Name" id="name" required=""><input type="email" class="text-field w-input" maxlength="256" name="email" data-name="Email" placeholder="Email Address" id="email" required=""><input type="tel" class="text-field w-input" maxlength="256" name="Phone-Number" data-name="Phone Number" placeholder="Phone Number" id="Phone-Number" required=""><textarea required="" placeholder="Your massage goes here..." maxlength="5000" id="Message" name="Message" data-name="Message" class="textarea w-input"></textarea><input type="submit" value="Submit" data-wait="Please wait..." class="button w-button">
+                </div><input type="text" class="text-field w-input" maxlength="256" name="name" data-name="Name" placeholder="Full Name" id="name" required=""><input type="email" class="text-field w-input" maxlength="256" name="email" data-name="Email" placeholder="Email Address" id="email" required=""><input type="tel" class="text-field w-input" maxlength="256" name="Phone-Number" data-name="Phone Number" placeholder="Phone Number" id="Phone-Number" required=""><textarea id="Message" name="Message" maxlength="5000" data-name="Message" placeholder="Your massage goes here..." required="" class="textarea w-input"></textarea><input type="submit" value="Submit" data-wait="Please wait..." class="button w-button">
               </form>
-              <div class="w-form-done">
-                <div>{{ texts.5a0ea5a1 }}</div>
+              <div class="success-message w-form-done">
+                <div class="div-block-43 div-block-44 div-block-45 div-block-46 div-block-47 div-block-48">
+                  <div>{{ texts.5a0ea5a1 }}</div>
+                </div>
               </div>
-              <div class="w-form-fail">
-                <div>{{ texts.-7c112e99 }}</div>
+              <div class="error-message w-form-fail">
+                <div class="text-block">{{ texts.-7c112e99 }}</div>
               </div>
             </div>
           </div>
