@@ -433,13 +433,13 @@ collections:
             label: Text
             name: 16b18a
             widget: string
-          - hint: 'Original text: Name, key: 24eeab'
+          - hint: 'Original text: Contact Us, key: 7f2746de'
             label: Text
-            name: 24eeab
+            name: 7f2746de
             widget: string
-          - hint: 'Original text: Email Address, key: -2b7010d0'
+          - hint: 'Original text: We’d love to hear from you!, key: -3aa45cdc'
             label: Text
-            name: '-2b7010d0'
+            name: '-3aa45cdc'
             widget: string
           - hint: >-
               Original text: Thank you! Your submission has been received!, key:
@@ -630,19 +630,6 @@ collections:
                 required: false
           - label: Image
             name: '-43773afc'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-3964c71d'
             widget: object
             fields:
               - name: url
