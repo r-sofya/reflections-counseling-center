@@ -1,20 +1,19 @@
 ---
 title: Aut Quia Qui Non
+created-on: 2023-08-25T01:47:36.149Z
 f_intro-text: Sunt labore nihil molestiae sit eligendi. Id consequatur consequatu
+layout: "[staff].html"
 slug: aut-quia-qui-non
-f_audio-file:
-  url: >-
-    https://uploads-ssl.webflow.com/64daac64da36b81d66272f9a/64e80837ff7569e88769995f_image1.jpeg
-  alt: null
+updated-on: 2023-08-25T01:47:36.149Z
+published-on: 2023-08-25T01:47:40.468Z
 f_profile-photo:
-  url: >-
-    https://uploads-ssl.webflow.com/64daac64da36b81d66272f9a/64e80837ff7569e887699942_image8.jpeg
+  url: https://uploads-ssl.webflow.com/64daac64da36b81d66272f9a/64e80837ff7569e887699942_image8.jpeg
   alt: null
-updated-on: '2023-08-25T01:47:36.149Z'
-created-on: '2023-08-25T01:47:36.149Z'
-published-on: '2023-08-25T01:47:40.468Z'
-layout: '[staff].html'
+f_audio-file:
+  url: /assets/images/touch-my-heart.mp3
+  alt: null
 tags: staff
+date: 2023-08-25T15:07:00.913Z
 ---
 
 Dolor doloremque in cumque quo harum et hic sunt.
