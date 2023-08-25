@@ -477,6 +477,10 @@ collections:
             label: Link
             name: 4de542d
             widget: string
+          - hint: 'Original link: /staff/mike-govan, key: 4f18dd62'
+            label: Link
+            name: 4f18dd62
+            widget: string
       - label: Images
         name: images
         file: cms/_data/images.json
