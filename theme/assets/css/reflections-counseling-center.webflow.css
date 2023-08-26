@@ -1187,6 +1187,10 @@ a {
   text-align: center;
 }
 
+.hidden {
+  display: none;
+}
+
 @media screen and (max-width: 991px) {
   .sp-duration, .sp-elapsed {
     display: flex;
