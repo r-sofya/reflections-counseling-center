@@ -1,17 +1,18 @@
 ---
 title: Aut Quia Qui Non
 created-on: 2023-08-25T01:47:36.149Z
-f_intro-text: Sunt labore nihil molestiae sit eligendi. Id consequatur consequatu
-layout: "[staff].html"
-slug: aut-quia-qui-non
 updated-on: 2023-08-25T01:47:36.149Z
 published-on: 2023-08-25T01:47:40.468Z
 f_profile-photo:
   url: https://uploads-ssl.webflow.com/64daac64da36b81d66272f9a/64e80837ff7569e887699942_image8.jpeg
   alt: null
+f_intro-text: Sunt labore nihil molestiae sit eligendi. Id consequatur consequatu
 f_audio-file:
   url: /assets/images/touch-my-heart.mp3
   alt: null
+f_member-email: rani.sofya@frameworklion.com
+layout: "[staff].html"
+slug: aut-quia-qui-non
 tags: staff
 date: 2023-08-25T15:07:00.913Z
 ---
