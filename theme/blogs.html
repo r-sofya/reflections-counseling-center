@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html data-wf-page="64daa7434fd91631adab564c" data-wf-site="64c565ae4e7720d70d1f3857"><head>
+<html data-wf-page="655bc952c656fe5e846295e3" data-wf-site="64c565ae4e7720d70d1f3857"><head>
   <meta charset="utf-8">
-  <title>Staff</title>
-  <meta content="Staff" property="og:title">
-  <meta content="Staff" property="twitter:title">
+  <title>Blogs</title>
+  <meta content="Blogs" property="og:title">
+  <meta content="Blogs" property="twitter:title">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="Webflow" name="generator">
   <link href="/assets/css/normalize.css" rel="stylesheet" type="text/css">
@@ -78,8 +78,8 @@ background:rgb(148, 148, 148);
                 <h2 class="heading-13">{{ texts.65e8db0 }}</h2>
               </a>
               <div id="w-node-_518bc4b8-601b-4d8b-ba87-c95f06c48e47-06c48e36" class="div-block-51">
-                <a href="{{ links.-7eed85c2 }}" aria-current="page" class="nav-link w-nav-link w--current">{{ texts.4c7d2c0 }}</a>
-                <a href="{{ links.63a5be2d }}" class="nav-link w-nav-link">{{ texts.3fe0efd }}</a>
+                <a href="{{ links.-7eed85c2 }}" class="nav-link w-nav-link">{{ texts.4c7d2c0 }}</a>
+                <a href="{{ links.63a5be2d }}" aria-current="page" class="nav-link w-nav-link w--current">{{ texts.3fe0efd }}</a>
               </div>
             </div>
           </nav>
@@ -88,147 +88,8 @@ background:rgb(148, 148, 148);
           </div>
         </div>
       </div>
-      <section class="section-2">
-        <div class="div-block-21">
-          <h2>{{ texts.4c7d2c0 }}</h2>
-        </div>
-        {%- assign collection = collections.staff | filter: "title,ne,Faith Harrak", "ALL", page.inputPath | sort: "created-on" -%}<div class="w-dyn-list">
-          {%- unless collection.length == 0 -%}<div role="list" class="collection-list w-dyn-items">
-            {%- for item in collection -%}<div role="listitem" class="collection-item w-dyn-item">
-              <div class="div-block-17 div-block-18 div-block-19 div-block-20 highlight-border">
-                <div class="div-block-22">
-                  <div id="w-node-_07fcace4-ff04-4b5d-baab-de7bf7f7ffd1-adab564c" class="w-layout-layout quick-stack-2 wf-layout-layout">
-                    <div id="w-node-_07fcace4-ff04-4b5d-baab-de7bf7f7ffd2-adab564c" class="w-layout-cell cell-4">
-                      <div class="div-block-42">
-                        <div class="div-block-41" style="background-image: url('{{item.data.f_profile-photo.url}}');"></div>
-                        <div class="div-block-24" style="background-image: url('{{item.data.f_profile-photo.url}}');"></div>
-                      </div>
-                    </div>
-                    <div id="w-node-_07fcace4-ff04-4b5d-baab-de7bf7f7ffd3-adab564c" class="w-layout-cell cell-5">
-                      <div class="div-block-23">
-                        <div class="div-block-54">
-                          <h3 class="heading-3">{{ item.data.title }}</h3>
-                          <div class="text-block-2">{{ item.data.f_label }}</div>
-                        </div>
-                        <p>{{ item.data.f_intro-text }}</p>
-                        <a href="{{ item.url }}" class="button primary w-button">{{ texts.-52bd880f }}</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>{%- endfor -%}
-          </div>{%- endunless -%}
-          {%- if collection.length == 0 -%}<div class="w-dyn-empty">
-            <div>{{ texts.3d503d2b }}</div>
-          </div>{%- endif -%}
-        </div>
-        {%- assign collection = collections.staff | filter: "title,eq,Faith Harrak", "ALL", page.inputPath | sort: "created-on" -%}<div class="collection-list-wrapper w-dyn-list">
-          {%- unless collection.length == 0 -%}<div role="list" class="collection-list w-dyn-items">
-            {%- for item in collection -%}<div role="listitem" class="collection-item w-dyn-item">
-              <div class="div-block-17 div-block-18 div-block-19 div-block-20 highlight-border">
-                <div class="div-block-22">
-                  <div id="w-node-f746352c-4f49-a1ba-600d-cde7218b832f-adab564c" class="w-layout-layout quick-stack-2 wf-layout-layout">
-                    <div id="w-node-f746352c-4f49-a1ba-600d-cde7218b8330-adab564c" class="w-layout-cell cell-4">
-                      <div class="div-block-42">
-                        <div class="div-block-41" style="background-image: url('{{item.data.f_profile-photo.url}}');"></div>
-                        <div class="div-block-24" style="background-image: url('{{item.data.f_profile-photo.url}}');"></div>
-                      </div>
-                    </div>
-                    <div id="w-node-f746352c-4f49-a1ba-600d-cde7218b8334-adab564c" class="w-layout-cell cell-5">
-                      <div class="div-block-23">
-                        <div class="div-block-54">
-                          <h3 class="heading-3">{{ item.data.title }}</h3>
-                          <div class="text-block-2">{{ item.data.f_label }}</div>
-                        </div>
-                        <p>{{ item.data.f_intro-text }}</p>
-                        <a href="{{ item.url }}" class="button primary w-button">{{ texts.-52bd880f }}</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>{%- endfor -%}
-          </div>{%- endunless -%}
-          {%- if collection.length == 0 -%}<div class="w-dyn-empty">
-            <div>{{ texts.3d503d2b }}</div>
-          </div>{%- endif -%}
-        </div>
-      </section>
-      <div class="div-block-31">
-        <h2 class="heading-6">{{ texts.-475b7d60 }}</h2>
-        <div class="div-block-29">
-          <div class="dropdown" data-ix="dropdown-tuggle">
-            <div class="dropdown-list">
-              <div class="dropdown-toggle">
-                <h3 class="heading-5">{{ texts.-246ca39a }}</h3><img src="{{ images.-104357c.url }}" loading="lazy" alt="{{ images.-104357c.alt | trim | escape }}" class="dropdown-icon">
-              </div>
-              <div class="div-block-55 div-block-56" data-ix="default-dropdown-position">
-                <p>{{ texts.257386af }}</p>
-              </div>
-            </div>
-          </div>
-          <div class="dropdown" data-ix="dropdown-tuggle">
-            <div class="dropdown-list">
-              <div class="dropdown-toggle">
-                <h3 class="heading-5">{{ texts.-2f65af18 }}</h3><img src="{{ images.-104357c.url }}" loading="lazy" alt="{{ images.-104357c.alt | trim | escape }}" class="dropdown-icon">
-              </div>
-              <div class="div-block-55 div-block-56" data-ix="default-dropdown-position">
-                <p>{{ texts.6d2d3f18 }}</p>
-              </div>
-            </div>
-          </div>
-          <div class="dropdown" data-ix="dropdown-tuggle">
-            <div class="dropdown-list">
-              <div class="dropdown-toggle">
-                <h3 class="heading-5">{{ texts.-39f9df8e }}</h3><img src="{{ images.-104357c.url }}" loading="lazy" alt="{{ images.-104357c.alt | trim | escape }}" class="dropdown-icon">
-              </div>
-              <div class="div-block-55 div-block-56" data-ix="default-dropdown-position">
-                <p>{{ texts.29fe47 }}</p>
-              </div>
-            </div>
-          </div>
-          <div class="dropdown" data-ix="dropdown-tuggle">
-            <div class="dropdown-list">
-              <div class="dropdown-toggle">
-                <h3 class="heading-5">{{ texts.-19896a74 }}</h3><img src="{{ images.-104357c.url }}" loading="lazy" alt="{{ images.-104357c.alt | trim | escape }}" class="dropdown-icon">
-              </div>
-              <div class="div-block-55 div-block-56" data-ix="default-dropdown-position">
-                <p>{{ texts.-35e84c30 }}</p>
-              </div>
-            </div>
-          </div>
-          <div class="dropdown" data-ix="dropdown-tuggle">
-            <div class="dropdown-list">
-              <div class="dropdown-toggle">
-                <h3 class="heading-5">{{ texts.-4ef5b9a1 }}</h3><img src="{{ images.-104357c.url }}" loading="lazy" alt="{{ images.-104357c.alt | trim | escape }}" class="dropdown-icon">
-              </div>
-              <div class="div-block-55 div-block-56" data-ix="default-dropdown-position">
-                <p>{{ texts.-16635781 }}</p>
-              </div>
-            </div>
-          </div>
-          <div class="dropdown" data-ix="dropdown-tuggle">
-            <div class="dropdown-list">
-              <div class="dropdown-toggle">
-                <h3 class="heading-5">{{ texts.-3248f83b }}</h3><img src="{{ images.-104357c.url }}" loading="lazy" alt="{{ images.-104357c.alt | trim | escape }}" class="dropdown-icon">
-              </div>
-              <div class="div-block-55 div-block-56" data-ix="default-dropdown-position">
-                <p>{{ texts.3e1a82 }}</p>
-              </div>
-            </div>
-          </div>
-          <div class="dropdown" data-ix="dropdown-tuggle">
-            <div class="dropdown-list">
-              <div class="dropdown-toggle">
-                <h3 class="heading-5">{{ texts.-19edbd7c }}</h3><img src="{{ images.-104357c.url }}" loading="lazy" alt="{{ images.-104357c.alt | trim | escape }}" class="dropdown-icon">
-              </div>
-              <div class="div-block-55 div-block-56" data-ix="default-dropdown-position">
-                <p>{{ texts.-715507c3 }}</p>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div class="div-block-60">
+        <h1 class="heading-14">{{ texts.1b095b10 }}</h1>
       </div>
     </div>
     <section class="footer-wrapper">
@@ -237,9 +98,9 @@ background:rgb(148, 148, 148);
           <div id="w-node-b38df633-739c-a40e-f5a9-7029443f6242-443f623f" class="w-layout-cell cell-9">
             <div class="div-block-25">
               <a href="{{ links.2f }}" class="footer-link">{{ texts.2268ff }}</a>
-              <a href="{{ links.-7eed85c2 }}" aria-current="page" class="footer-link w--current">{{ texts.4c7d2c0 }}</a>
+              <a href="{{ links.-7eed85c2 }}" class="footer-link">{{ texts.4c7d2c0 }}</a>
               <a href="{{ links.777d097 }}" class="footer-link">{{ texts.79dabf3f }}</a>
-              <a href="{{ links.63a5be2d }}" class="footer-link">{{ texts.3fe0efd }}</a>
+              <a href="{{ links.63a5be2d }}" aria-current="page" class="footer-link w--current">{{ texts.3fe0efd }}</a>
             </div>
           </div>
           <div id="w-node-b38df633-739c-a40e-f5a9-7029443f624a-443f623f" class="w-layout-cell cell-6"><img src="{{ images.-175676ca.url }}" loading="lazy" width="183" alt="{{ images.-175676ca.alt | trim | escape }}"></div>

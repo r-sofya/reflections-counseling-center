@@ -3,16 +3,68 @@
     "url": "/assets/images/background.jpg",
     "alt": ""
   },
-  "2739296e": {
-    "url": "/assets/images/rcc.svg",
+  "404e4005": {
+    "url": "/assets/images/aron-visuals-r49cugaq0mk-unsplash.png",
+    "alt": ""
+  },
+  "404e29bd": {
+    "url": "/assets/images/aron-visuals-r49cugaq0mk-unsplash.jpg",
+    "alt": ""
+  },
+  "1feb87f9": {
+    "url": "/assets/images/emdria_logo_reg_dark.png",
+    "alt": ""
+  },
+  "1eb1fb21": {
+    "url": "/assets/images/unnamed.png",
+    "alt": ""
+  },
+  "i30cd392d": {
+    "url": "/assets/images/r.png",
+    "alt": ""
+  },
+  "i7f1e76ba": {
+    "url": "/assets/images/theravivelogo.jpg",
+    "alt": ""
+  },
+  "i61d92851": {
+    "url": "/assets/images/christiancounselordirectory.png",
     "alt": ""
   },
   "-1ae49dc8": {
     "url": "/assets/images/avatar-demo.png",
     "alt": ""
   },
-  "-59641300": {
-    "url": "/assets/images/cross-fill.svg",
+  "-75c98df2": {
+    "url": "/assets/images/cross_1.svg",
+    "alt": ""
+  },
+  "-6bd3af24": {
+    "url": "/assets/images/cross.svg",
+    "alt": ""
+  },
+  "3c89dd0d": {
+    "url": "/assets/images/speaker_1.svg",
+    "alt": ""
+  },
+  "3e0c6f9b": {
+    "url": "/assets/images/speaker.svg",
+    "alt": ""
+  },
+  "23900f61": {
+    "url": "/assets/images/home_1.svg",
+    "alt": ""
+  },
+  "3fe326ef": {
+    "url": "/assets/images/home.svg",
+    "alt": ""
+  },
+  "-469e3c97": {
+    "url": "/assets/images/tools_1.svg",
+    "alt": ""
+  },
+  "29223cf7": {
+    "url": "/assets/images/tools.svg",
     "alt": ""
   },
   "-104357c": {
@@ -27,18 +79,6 @@
     "url": "/assets/images/instagram-line.svg",
     "alt": ""
   },
-  "-1e09203f": {
-    "url": "/assets/images/linkedin-box-line.svg",
-    "alt": ""
-  },
-  "-57be931": {
-    "url": "/assets/images/medicare-line.svg",
-    "alt": ""
-  },
-  "-47f6f13a": {
-    "url": "/assets/images/accessible.svg",
-    "alt": ""
-  },
   "-78bdb221": {
     "url": "/assets/images/blue-cross-fill.svg",
     "alt": ""
@@ -47,20 +87,28 @@
     "url": "/assets/images/blue-shield-fill.svg",
     "alt": ""
   },
-  "658a1156": {
-    "url": "https://uploads-ssl.webflow.com/64e801fe25cb65edbef6e69a/64e801ff25cb65edbef6e89f_Play_fill.svg",
+  "-1e09203f": {
+    "url": "/assets/images/linkedin-box-line.svg",
     "alt": ""
   },
-  "470f5d6a": {
-    "url": "https://uploads-ssl.webflow.com/64e801fe25cb65edbef6e69a/64e801ff25cb65edbef6e8a0_Stop_fill.svg",
+  "-47f6f13a": {
+    "url": "/assets/images/accessible.svg",
     "alt": ""
   },
-  "-2b1beb3c": {
-    "url": "https://d3e54v103j8qbb.cloudfront.net/static/page-not-found.211a85e40c.svg",
+  "-3bcf3af": {
+    "url": "/assets/external/64e801ff25cb65edbef6e89f_play_fill.svg",
     "alt": ""
   },
-  "4abef31c": {
-    "url": "https://d3e54v103j8qbb.cloudfront.net/static/utility-lock.ae54711958.svg",
+  "-2237a79b": {
+    "url": "/assets/external/64e801ff25cb65edbef6e8a0_stop_fill.svg",
+    "alt": ""
+  },
+  "-6087357f": {
+    "url": "/assets/external/page-not-found.211a85e40c.svg",
+    "alt": ""
+  },
+  "-7a700be7": {
+    "url": "/assets/external/utility-lock.ae54711958.svg",
     "alt": ""
   }
 }

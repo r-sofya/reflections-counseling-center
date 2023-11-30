@@ -80,6 +80,51 @@ collections:
             name: additional_tags
             widget: text
             required: false
+  - name: client_reviews
+    label: Client Reviews
+    folder: cms/client-reviews
+    create: true
+    identifier_field: name
+    extension: md
+    slug: '{{slug}}'
+    fields:
+      - hint: ''
+        name: title
+        label: Name
+        widget: string
+        required: true
+      - hint: ''
+        name: created-on
+        label: Created On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: updated-on
+        label: Updated On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: published-on
+        label: Published On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: f_review
+        label: Review
+        widget: text
+        required: false
+      - label: Tags
+        widget: hidden
+        name: tags
+        default: client-reviews
+      - label: Layout
+        widget: hidden
+        name: layout
+        default: '[client-reviews].html'
+      - label: Publish Date
+        name: date
+        widget: datetime
+      - *ref_0
   - name: staff
     label: Staff Members
     folder: cms/staff
@@ -112,7 +157,7 @@ collections:
         name: body
         widget: markdown
         required: false
-      - hint: Make sure it's a square image (1x1 ratio)
+      - hint: ''
         name: f_profile-photo
         label: Profile Photo
         widget: object
@@ -151,6 +196,11 @@ collections:
         label: Member Email
         widget: string
         required: true
+      - hint: ''
+        name: f_label
+        label: Label
+        widget: string
+        required: false
       - label: Tags
         widget: hidden
         name: tags
@@ -253,47 +303,103 @@ collections:
             name: title
             widget: hidden
             default: Texts
+          - hint: >-
+              Original text:
+              https://reflectionscounselingcenter.netlify.app/assets/images/109449469-beatitudes-piano-cinematic-sou.mp3,
+              key: f188d1a
+            label: Text
+            name: f188d1a
+            widget: text
+          - hint: 'Original text: Reflections Counselling Center, key: 26045042'
+            label: Text
+            name: '26045042'
+            widget: string
           - hint: 'Original text: Home, key: 2268ff'
             label: Text
             name: 2268ff
+            widget: string
+          - hint: 'Original text: Trauma/EMDR, key: 79dabf3f'
+            label: Text
+            name: 79dabf3f
+            widget: string
+          - hint: 'Original text: Reflections Counseling Center, key: 65e8db0'
+            label: Text
+            name: 65e8db0
             widget: string
           - hint: 'Original text: Staff, key: 4c7d2c0'
             label: Text
             name: 4c7d2c0
             widget: string
-          - hint: 'Original text: Get Started, key: -364d0a89'
+          - hint: 'Original text: Our Blogs, key: 3fe0efd'
             label: Text
-            name: '-364d0a89'
+            name: 3fe0efd
             widget: string
           - hint: 'Original text: Are you ready for healing?, key: -2a5c9f9a'
             label: Text
             name: '-2a5c9f9a'
             widget: string
           - hint: >-
-              Original text: I see clients who have tried Counseling and left
-              with unresolved struggles. What we do at Reflections is to change
-              this pattern to a process that reaches their goals. 95% of my
-              clients are successful in resolving what was previously stuck.,
-              key: 5bf02ef9
+              Original text: Lacking motivation? Depressed? Tired of arguing?
+              Struggling with Anxiety? Sick of what Trauma got you in? Stuck?
+              All these unpleasant issues are symptoms of something that went
+              wrong and was left unresolved! Here at Reflections, we have a 95%
+              success rate in solving and changing these issues to a more
+              pleasant experience and achieving freedom from whatever stalls you
+              in becoming a better YOU!, key: 2d8d1eac
             label: Text
-            name: 5bf02ef9
+            name: 2d8d1eac
             widget: text
+          - hint: 'Original text: Connect With Us, key: 53ffaee2'
+            label: Text
+            name: 53ffaee2
+            widget: string
           - hint: 'Original text: Our Mission Statement, key: 2cc537a7'
             label: Text
             name: 2cc537a7
             widget: string
           - hint: >-
-              Original text: Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliqua. Diam in arcu cursus euismod quis.Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Diam in arcu cursus
-              euismod quis.Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliqua. Diam in arcu cursus euismod quis., key: 64a35982
+              Original text: Resolve/Diminish pain of God's hurting people, key:
+              123a0fbf
             label: Text
-            name: 64a35982
+            name: 123a0fbf
+            widget: string
+          - hint: >-
+              Original text: Bring hope and healing to individuals and families
+              who have lost their way with themselves, God, or others, key:
+              -18e1fc68
+            label: Text
+            name: '-18e1fc68'
             widget: text
+          - hint: >-
+              Original text: Helping others mature, find answers to their
+              problems, and solve their issues, key: 30269125
+            label: Text
+            name: '30269125'
+            widget: string
+          - hint: >-
+              Original text: Extend Grace and Hope to the hurting through
+              competent Christian Counseling, key: 29c42e16
+            label: Text
+            name: 29c42e16
+            widget: string
+          - hint: >-
+              Original text: Facilitate the dignity and well being of our
+              clients and families, key: -96f9759
+            label: Text
+            name: '-96f9759'
+            widget: string
+          - hint: >-
+              Original text: Provide relational wholeness in families, couples,
+              with self, and with God, key: -28eee5fd
+            label: Text
+            name: '-28eee5fd'
+            widget: string
+          - hint: >-
+              Original text: Supporting clients core personal values, strengths
+              and vision, key: 32831899
+            label: Text
+            name: '32831899'
+            widget: string
           - hint: 'Original text: Learn More, key: -52bd880f'
             label: Text
             name: '-52bd880f'
@@ -303,39 +409,165 @@ collections:
             name: 53ce9c8c
             widget: string
           - hint: >-
-              Original text: Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit. Suspendisse varius enim in eros elementum tristique. Duis
-              cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
-              commodo diam libero vitae erat. Aenean faucibus nibh et justo
-              cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus
-              tristique posuere., key: -5286fc08
+              Original text: Many people are looking for a Christian Faith-based
+              counselor. They want someone who has successfully faced and
+              overcome personal struggles with God's help using the Bible as the
+              highest standard of truth. Michael earned the bachelor's degree in
+              Theology in 1983 and has been using Bible based counseling since
+              1987. Michael regularly prays for God to speak through him in
+              sessions where God's spirit heals the clients. Michael offers this
+              type of therapy to those seeking God's help., key: 34b0b9ff
             label: Text
-            name: '-5286fc08'
+            name: 34b0b9ff
             widget: text
           - hint: 'Original text: A place where your voice matters, key: 5c724c48'
             label: Text
             name: 5c724c48
             widget: string
-          - hint: 'Original text: life skills, key: 78cfa5e6'
+          - hint: >-
+              Original text: We believe everyone has a voice and should be
+              heard! Here at Reflections, we will work with your thoughts and
+              ideas. When needed, we can teach you skills and give you tools to
+              present your thoughts and ideas in better ways creating a space
+              for YOU to be heard, communicate, and build boundaries with
+              positive solutions., key: -6cc43573
             label: Text
-            name: 78cfa5e6
+            name: '-6cc43573'
+            widget: text
+          - hint: 'Original text: life skills impowered, key: -5441d2fa'
+            label: Text
+            name: '-5441d2fa'
             widget: string
-          - hint: 'Original text: Judgmental free zone, key: -8fe6549'
+          - hint: >-
+              Original text: So many are great at work but struggle with life
+              skills at home because of the way they were raised. Abuse, neglect
+              and abandonment leaves many with extra challenges to attend to
+              their family's emotional needs. Our commitment at Reflections is
+              to teach you focus and rapport building skills and offer
+              conflict-resolution dialogues that work., key: 50a5834d
             label: Text
-            name: '-8fe6549'
+            name: 50a5834d
+            widget: text
+          - hint: 'Original text: Safe & Welcoming Zone, key: -15ec34e6'
+            label: Text
+            name: '-15ec34e6'
+            widget: string
+          - hint: >-
+              Original text: We believe in the ability of making tomorrow and
+              our choices better! We do not look at our clients for their
+              struggles or mistakes, we all have these issues! But what sets us
+              apart from anyone else, is that we approach these issues our
+              clients have/ had as an opportunity to realize, assess, and solve.
+              We take time to listen, set plans and goals based on my training
+              and over 35 years of experience to equip each person that walks
+              through our doors. You can be assured of complete confidentiality
+              as the laws provide for your safety, and your personal issues are
+              sealed between you and your therapist unless you share it yourself
+              with someone else., key: -273d1b58
+            label: Text
+            name: '-273d1b58'
+            widget: text
+          - hint: 'Original text: life skills empowered, key: 5aac7102'
+            label: Text
+            name: 5aac7102
+            widget: string
+          - hint: 'Original text: Safe and Welcoming Zone, key: 64ece089'
+            label: Text
+            name: 64ece089
+            widget: string
+          - hint: 'Original text: What Our Clients Say About Us, key: 29346e6e'
+            label: Text
+            name: 29346e6e
+            widget: string
+          - hint: 'Original text: ", key: 22'
+            label: Text
+            name: '22'
+            widget: string
+          - hint: 'Original text: No items found., key: 3d503d2b'
+            label: Text
+            name: 3d503d2b
             widget: string
           - hint: 'Original text: Frequently Asked Questions, key: -475b7d60'
             label: Text
             name: '-475b7d60'
             widget: string
-          - hint: 'Original text: Heading, key: -6d5fea1e'
+          - hint: 'Original text: How long is each session?, key: -246ca39a'
             label: Text
-            name: '-6d5fea1e'
+            name: '-246ca39a'
             widget: string
-          - hint: 'Original text: Contact, key: -64104400'
+          - hint: >-
+              Original text: We offer 1 hour sessions here at Reflections., key:
+              257386af
             label: Text
-            name: '-64104400'
+            name: 257386af
             widget: string
+          - hint: 'Original text: Do you take insurance?, key: -2f65af18'
+            label: Text
+            name: '-2f65af18'
+            widget: string
+          - hint: >-
+              Original text: Yes. Michael Govan takes BCBS PPO, none related to
+              Medicare. Dr. Thomas Kelley, takes BCBS PPO, Medicare and Carelon
+              Behavioral Health-formerly Beacon., key: 6d2d3f18
+            label: Text
+            name: 6d2d3f18
+            widget: text
+          - hint: >-
+              Original text: Do you offer discounts to clients without
+              Insurance?, key: -39f9df8e
+            label: Text
+            name: '-39f9df8e'
+            widget: string
+          - hint: 'Original text: Yes., key: 29fe47'
+            label: Text
+            name: 29fe47
+            widget: string
+          - hint: 'Original text: What is your fee?, key: -19896a74'
+            label: Text
+            name: '-19896a74'
+            widget: string
+          - hint: >-
+              Original text: The initial session is $200, every hour session
+              after is $240., key: -35e84c30
+            label: Text
+            name: '-35e84c30'
+            widget: string
+          - hint: 'Original text: What is Trauma?, key: -4ef5b9a1'
+            label: Text
+            name: '-4ef5b9a1'
+            widget: string
+          - hint: >-
+              Original text: Symptoms may include flashbacks, nightmares and
+              severe anxiety, as well as uncontrollable thoughts about the
+              event, difficulty adjusting and coping., key: -16635781
+            label: Text
+            name: '-16635781'
+            widget: text
+          - hint: 'Original text: How long will I be in therapy?, key: -3248f83b'
+            label: Text
+            name: '-3248f83b'
+            widget: string
+          - hint: >-
+              Original text: Every case is unique, usually the therapist has an
+              idea after a few weeks of treatment. Each client is recommended to
+              come weekly, in some complex cases twice per week!, key: 3e1a82
+            label: Text
+            name: 3e1a82
+            widget: text
+          - hint: >-
+              Original text: What's the difference between Counselor, Therapist,
+              Psychologist & Psychiatrist?, key: -19edbd7c
+            label: Text
+            name: '-19edbd7c'
+            widget: string
+          - hint: >-
+              Original text: A therapist is a licensed counselor or
+              psychologist. A psychiatrist is a medical doctor who can diagnose
+              and prescribe medication to treat mental health disorders., key:
+              -715507c3
+            label: Text
+            name: '-715507c3'
+            widget: text
           - hint: 'Original text: 2888 E Long Lake Rd #170, key: -73b93c0d'
             label: Text
             name: '-73b93c0d'
@@ -420,16 +652,6 @@ collections:
             label: Text
             name: '-cacf814'
             widget: string
-          - hint: >-
-              Original text: Our team is specially selected just for you :),
-              key: -3fdd1649
-            label: Text
-            name: '-3fdd1649'
-            widget: string
-          - hint: 'Original text: No items found., key: 3d503d2b'
-            label: Text
-            name: 3d503d2b
-            widget: string
           - hint: "Original text: Hello, my name is\_, key: -1bb357d1"
             label: Text
             name: '-1bb357d1'
@@ -438,13 +660,13 @@ collections:
             label: Text
             name: 16b18a
             widget: string
-          - hint: 'Original text: Contact Us, key: 7f2746de'
+          - hint: 'Original text: Contact Me, key: 7f2745d8'
             label: Text
-            name: 7f2746de
+            name: 7f2745d8
             widget: string
-          - hint: 'Original text: We’d love to hear from you!, key: -3aa45cdc'
+          - hint: 'Original text: I’d love to hear from you!, key: 1709da29'
             label: Text
-            name: '-3aa45cdc'
+            name: 1709da29
             widget: string
           - hint: >-
               Original text: Thank you! Your submission has been received!, key:
@@ -486,6 +708,10 @@ collections:
             label: Text
             name: '-f5c4b5f'
             widget: string
+          - hint: 'Original text: Blog are Coming Soon, key: 1b095b10'
+            label: Text
+            name: 1b095b10
+            widget: string
       - label: Links
         name: links
         file: cms/_data/links.json
@@ -498,17 +724,39 @@ collections:
             label: Link
             name: 2f
             widget: string
+          - hint: 'Original link: /staff/michael-govan, key: 777d097'
+            label: Link
+            name: 777d097
+            widget: string
           - hint: 'Original link: /staff/, key: -7eed85c2'
             label: Link
             name: '-7eed85c2'
             widget: string
-          - hint: 'Original link: /staff/mike-govan, key: 4f18dd62'
+          - hint: 'Original link: /blogs/, key: 63a5be2d'
             label: Link
-            name: 4f18dd62
+            name: 63a5be2d
             widget: string
-          - hint: 'Original link: #, key: 23'
+          - hint: 'Original link: #Cross, key: 3f9f45dd'
             label: Link
-            name: '23'
+            name: 3f9f45dd
+            widget: string
+          - hint: 'Original link: #Voice, key: 40a98ecf'
+            label: Link
+            name: 40a98ecf
+            widget: string
+          - hint: 'Original link: #Home, key: 20f9fa2'
+            label: Link
+            name: 20f9fa2
+            widget: string
+          - hint: 'Original link: #Skills, key: -30ce79bb'
+            label: Link
+            name: '-30ce79bb'
+            widget: string
+          - hint: >-
+              Original link: https://maps.app.goo.gl/hwuSCCvvAtZGxfE88, key:
+              159d1a5c
+            label: Link
+            name: 159d1a5c
             widget: string
           - hint: 'Original link: tel:(248)524-0050, key: 4de542d'
             label: Link
@@ -536,7 +784,85 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 2739296e
+            name: '404e4005'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 404e29bd
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 1feb87f9
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 1eb1fb21
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: i30cd392d
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: i7f1e76ba
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: i61d92851
             widget: object
             fields:
               - name: url
@@ -562,7 +888,98 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-59641300'
+            name: '-75c98df2'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-6bd3af24'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 3c89dd0d
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 3e0c6f9b
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 23900f61
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 3fe326ef
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-469e3c97'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 29223cf7
             widget: object
             fields:
               - name: url
@@ -614,45 +1031,6 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-1e09203f'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-57be931'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-47f6f13a'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
             name: '-78bdb221'
             widget: object
             fields:
@@ -679,7 +1057,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 658a1156
+            name: '-1e09203f'
             widget: object
             fields:
               - name: url
@@ -692,7 +1070,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 470f5d6a
+            name: '-47f6f13a'
             widget: object
             fields:
               - name: url
@@ -705,7 +1083,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-2b1beb3c'
+            name: '-3bcf3af'
             widget: object
             fields:
               - name: url
@@ -718,7 +1096,33 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 4abef31c
+            name: '-2237a79b'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-6087357f'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-7a700be7'
             widget: object
             fields:
               - name: url
