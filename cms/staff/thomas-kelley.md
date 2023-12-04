@@ -1,21 +1,21 @@
 ---
-f_intro-text: >-
-  Dr. Tom Kelley, a Licensed Clinical Psychologist with 20+ years at Reflections
-  Counseling Center, helps individuals escape chronic stress, anxiety, anger,
-  and depression. Experience optimal mental health. Don't wait, start your
-  journey to a happy life with Dr. Tom.
-f_member-email: Aa5216@wayne.edu
 title: Dr. Thomas Kelley
-slug: thomas-kelley
+created-on: 2023-10-19T01:55:45.322Z
+updated-on: 2023-11-30T21:00:06.705Z
+published-on: 2023-11-30T20:01:53.478Z
 f_profile-photo:
-  url: /assets/external/65308b9b05445e225a353eea_202220tom201.jpg
+  url: /assets/images/2022-tom-1.jpg
   alt: null
-updated-on: '2023-11-30T21:00:06.705Z'
-created-on: '2023-10-19T01:55:45.322Z'
-published-on: '2023-11-30T20:01:53.478Z'
+f_intro-text: Dr. Tom Kelley, a Licensed Clinical Psychologist with 20+ years at
+  Reflections Counseling Center, helps individuals escape chronic stress,
+  anxiety, anger, and depression. Experience optimal mental health. Don't wait,
+  start your journey to a happy life with Dr. Tom.
+f_member-email: Aa5216@wayne.edu
+layout: "[staff].html"
+slug: thomas-kelley
 f_label: Ph.D
-layout: '[staff].html'
 tags: staff
+date: 2023-12-04T18:46:14.445Z
 ---
 
 **Dr. Thomas Kelley**
