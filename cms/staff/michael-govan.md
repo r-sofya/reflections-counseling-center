@@ -1,22 +1,21 @@
 ---
-f_intro-text: >-
-  Michael is the owner of Reflections Counseling Center for 30+ years. He is a
-  Certified Therapist in EMDR. He loves to heal people from their life traumas
-  and has a wonderful conflict resolution program to turn conflict into intimate
-  connection. Let Michael help you in your healing process.
-f_member-email: RccEmailUs@gmail.com
 title: Michael Govan
-slug: michael-govan
+created-on: 2023-10-05T02:53:44.940Z
+updated-on: 2023-11-30T19:56:19.114Z
+published-on: 2023-11-30T20:01:53.478Z
 f_profile-photo:
-  url: >-
-    /assets/external/656555e8d006b23a397c979b_main-canvas-65654f15209aacd286f3ddbc.jpeg
+  url: /assets/images/main-canvas-65654f15209aacd286f3ddbc.jpeg
   alt: null
-updated-on: '2023-11-30T19:56:19.114Z'
-created-on: '2023-10-05T02:53:44.940Z'
-published-on: '2023-11-30T20:01:53.478Z'
+f_intro-text: Michael is the owner of Reflections Counseling Center for 30+
+  years. He is a Certified Therapist in EMDR. He loves to heal people from their
+  life traumas and has a wonderful conflict resolution program to turn conflict
+  into intimate connection. Let Michael help you in your healing process.
+f_member-email: RccEmailUs@gmail.com
+layout: "[staff].html"
+slug: michael-govan
 f_label: MA, LLP, LPC, and is a Certified Therapist in EMDR
-layout: '[staff].html'
 tags: staff
+date: 2023-12-04T18:45:50.319Z
 ---
 
 MA, LLP, LPC & Certified Therapist in EMDR
