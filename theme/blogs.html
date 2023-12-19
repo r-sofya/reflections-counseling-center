@@ -29,17 +29,6 @@ background:rgb(51, 51, 51);
 .body::-webkit-scrollbar-thumb {
 background:rgb(148, 148, 148);
 }
-</style>
-  <!--  [Attributes by Finsweet] CMS Slider  -->
-  <script async="" src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-cmsslider@1/cmsslider.js"></script>
-  <script>
-	window.addEventListener('load', function() {
-  	setTimeout(function() {
-    var button = document.querySelector('.sp-play');
-    button.click();
-  	}, 100);
-	});
-</script>
 {{ settings.site.header_additional_content }}{%- include "partials/_site-css-variables" -%}<style>.w-video.w-embed {
             aspect-ratio: 16 / 9;
         }</style></head>
@@ -164,11 +153,4 @@ background:rgb(148, 148, 148);
   	sliderContent.style.height = sliderHeight;
 	});
 </script>
-  <script>
-	window.addEventListener('load', function() {
-  	setTimeout(function() {
-    var button = document.querySelector('.sp-pause');
-    button.click();
-  	}, 100);
-	});
-</script>{{ texts.7b0cbfc7 }}<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}</body></html>
+  {{ texts.7b0cbfc7 }}<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}</body></html>
