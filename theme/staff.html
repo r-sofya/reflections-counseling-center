@@ -32,6 +32,14 @@ background:rgb(148, 148, 148);
 </style>
   <!--  [Attributes by Finsweet] CMS Slider  -->
   <script async="" src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-cmsslider@1/cmsslider.js"></script>
+  <script>
+	window.addEventListener('load', function() {
+  	setTimeout(function() {
+    var button = document.querySelector('.sp-play');
+    button.click();
+  	}, 100);
+	});
+</script>
 {{ settings.site.header_additional_content }}{%- include "partials/_site-css-variables" -%}<style>.w-video.w-embed {
             aspect-ratio: 16 / 9;
         }</style></head>
@@ -174,14 +182,14 @@ background:rgb(148, 148, 148);
                 <h3 class="heading-5">{{ texts.-2f65af18 }}</h3><img src="{{ images.-104357c.url }}" loading="lazy" alt="{{ images.-104357c.alt | trim | escape }}" class="dropdown-icon">
               </div>
               <div class="div-block-55 div-block-56" data-ix="default-dropdown-position">
-                <p>{{ texts.6d2d3f18 }}</p>
+                <p>{{ texts.-147668cf }}</p>
               </div>
             </div>
           </div>
           <div class="dropdown" data-ix="dropdown-tuggle">
             <div class="dropdown-list">
               <div class="dropdown-toggle">
-                <h3 class="heading-5">{{ texts.-39f9df8e }}</h3><img src="{{ images.-104357c.url }}" loading="lazy" alt="{{ images.-104357c.alt | trim | escape }}" class="dropdown-icon">
+                <h3 class="heading-5">{{ texts.4f344452 }}</h3><img src="{{ images.-104357c.url }}" loading="lazy" alt="{{ images.-104357c.alt | trim | escape }}" class="dropdown-icon">
               </div>
               <div class="div-block-55 div-block-56" data-ix="default-dropdown-position">
                 <p>{{ texts.29fe47 }}</p>
@@ -194,17 +202,17 @@ background:rgb(148, 148, 148);
                 <h3 class="heading-5">{{ texts.-19896a74 }}</h3><img src="{{ images.-104357c.url }}" loading="lazy" alt="{{ images.-104357c.alt | trim | escape }}" class="dropdown-icon">
               </div>
               <div class="div-block-55 div-block-56" data-ix="default-dropdown-position">
-                <p>{{ texts.-35e84c30 }}</p>
+                <p>{{ texts.-7de72ea }}</p>
               </div>
             </div>
           </div>
           <div class="dropdown" data-ix="dropdown-tuggle">
             <div class="dropdown-list">
               <div class="dropdown-toggle">
-                <h3 class="heading-5">{{ texts.-4ef5b9a1 }}</h3><img src="{{ images.-104357c.url }}" loading="lazy" alt="{{ images.-104357c.alt | trim | escape }}" class="dropdown-icon">
+                <h3 class="heading-5">{{ texts.4dd1ae7f }}</h3><img src="{{ images.-104357c.url }}" loading="lazy" alt="{{ images.-104357c.alt | trim | escape }}" class="dropdown-icon">
               </div>
               <div class="div-block-55 div-block-56" data-ix="default-dropdown-position">
-                <p>{{ texts.-16635781 }}</p>
+                <p>{{ texts.-3d7883ed }}</p>
               </div>
             </div>
           </div>
@@ -214,14 +222,14 @@ background:rgb(148, 148, 148);
                 <h3 class="heading-5">{{ texts.-3248f83b }}</h3><img src="{{ images.-104357c.url }}" loading="lazy" alt="{{ images.-104357c.alt | trim | escape }}" class="dropdown-icon">
               </div>
               <div class="div-block-55 div-block-56" data-ix="default-dropdown-position">
-                <p>{{ texts.3e1a82 }}</p>
+                <p>{{ texts.7406e697 }}</p>
               </div>
             </div>
           </div>
           <div class="dropdown" data-ix="dropdown-tuggle">
             <div class="dropdown-list">
               <div class="dropdown-toggle">
-                <h3 class="heading-5">{{ texts.-19edbd7c }}</h3><img src="{{ images.-104357c.url }}" loading="lazy" alt="{{ images.-104357c.alt | trim | escape }}" class="dropdown-icon">
+                <h3 class="heading-5">{{ texts.-398e302c }}</h3><img src="{{ images.-104357c.url }}" loading="lazy" alt="{{ images.-104357c.alt | trim | escape }}" class="dropdown-icon">
               </div>
               <div class="div-block-55 div-block-56" data-ix="default-dropdown-position">
                 <p>{{ texts.-715507c3 }}</p>
@@ -286,5 +294,20 @@ background:rgb(148, 148, 148);
 </style>
   <!--  [Attributes by True Media Player] Audio Player Plugin  -->
   <script src="https://trueaudioplayer.b-cdn.net/true-audio-player@1.1.1.min.js" type="text/javascript"></script>
-
-<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}</body></html>
+  <!--  Script for slider sizing  -->
+  <script>
+	const slider = document.querySelector('.slider');
+	const sliderContents = document.querySelectorAll('.slider-content');
+	const sliderHeight = window.getComputedStyle(slider).height;
+	sliderContents.forEach((sliderContent) => {
+  	sliderContent.style.height = sliderHeight;
+	});
+</script>
+  <script>
+	window.addEventListener('load', function() {
+  	setTimeout(function() {
+    var button = document.querySelector('.sp-pause');
+    button.click();
+  	}, 100);
+	});
+</script>{{ texts.7b0cbfc7 }}<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}</body></html>

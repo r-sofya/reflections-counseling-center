@@ -30,6 +30,14 @@ background:rgb(148, 148, 148);
 </style>
   <!--  [Attributes by Finsweet] CMS Slider  -->
   <script async="" src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-cmsslider@1/cmsslider.js"></script>
+  <script>
+	window.addEventListener('load', function() {
+  	setTimeout(function() {
+    var button = document.querySelector('.sp-play');
+    button.click();
+  	}, 100);
+	});
+</script>
 {{ settings.site.header_additional_content }}{%- include "partials/_site-css-variables" -%}<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script><style>.w-video.w-embed {
             aspect-ratio: 16 / 9;
         }</style></head>
@@ -92,7 +100,7 @@ background:rgb(148, 148, 148);
           <div class="div-block-8">
             <h1 class="special-heading no-wrap">{{ texts.-2a5c9f9a }}</h1>
           </div>
-          <p>{{ texts.2d8d1eac }}</p>
+          <p>{{ texts.-16b87194 }}</p>
           <a href="{{ links.-7eed85c2 }}" class="button primary w-button">{{ texts.53ffaee2 }}</a>
         </div>
         <div id="w-node-_4ad8fd50-f3a3-301b-0277-3fd3b5b1fe59-0d1f3880" class="w-layout-cell cell-17"><img src="{{ images.-1ae49dc8.url }}" loading="lazy" sizes="(max-width: 991px) 100vw, (max-width: 1210px) 97vw, 1174px" alt="{{ images.-1ae49dc8.alt | trim | escape }}" class="image-17"></div>
@@ -103,13 +111,13 @@ background:rgb(148, 148, 148);
             <h1 class="heading-7">{{ texts.2cc537a7 }}</h1>
             <div class="mission-text w-richtext">
               <ul role="list">
-                <li>{{ texts.123a0fbf }}</li>
-                <li>{{ texts.-18e1fc68 }}</li>
-                <li>{{ texts.30269125 }}</li>
-                <li>{{ texts.29c42e16 }}</li>
-                <li>{{ texts.-96f9759 }}</li>
-                <li>{{ texts.-28eee5fd }}</li>
-                <li>{{ texts.32831899 }}</li>
+                <li>{{ texts.-78cb8021 }}</li>
+                <li>{{ texts.19d3d454 }}</li>
+                <li>{{ texts.-2ebae71d }}</li>
+                <li>{{ texts.-21ab3e4a }}</li>
+                <li>{{ texts.112d5e3a }}</li>
+                <li>{{ texts.780ff401 }}</li>
+                <li>{{ texts.80928b1 }}</li>
               </ul>
             </div>
             <a href="{{ links.777d097 }}" class="button primary w-button">{{ texts.-52bd880f }}</a>
@@ -122,7 +130,7 @@ background:rgb(148, 148, 148);
             <div class="div-block-8">
               <h1 class="heading-12">{{ texts.53ce9c8c }}</h1>
             </div>
-            <p class="paragraph-4">{{ texts.34b0b9ff }}</p>
+            <p class="paragraph-4">{{ texts.-7ad004b2 }}</p>
           </div>
         </div>
         <div id="w-node-c146929f-2134-9592-01ae-1de20ae81408-0d1f3880" class="w-layout-cell cell-18">
@@ -130,7 +138,7 @@ background:rgb(148, 148, 148);
             <div class="div-block-8">
               <h1 class="heading-12">{{ texts.5c724c48 }}</h1>
             </div>
-            <p class="paragraph-5">{{ texts.-6cc43573 }}<br></p>
+            <p class="paragraph-5">{{ texts.15b4c4b0 }}<br></p>
           </div>
         </div>
         <div id="w-node-d1eefbe0-af43-771e-62d5-3d5568536d22-0d1f3880" class="w-layout-cell cell-18">
@@ -138,7 +146,7 @@ background:rgb(148, 148, 148);
             <div class="div-block-8">
               <h1 class="heading-12">{{ texts.-5441d2fa }}</h1>
             </div>
-            <p class="paragraph-6">{{ texts.50a5834d }}</p>
+            <p class="paragraph-6">{{ texts.c428842 }}</p>
           </div>
         </div>
         <div id="w-node-_649fe284-c495-d008-f76b-58443bc39411-0d1f3880" class="w-layout-cell cell-18">
@@ -146,7 +154,7 @@ background:rgb(148, 148, 148);
             <div class="div-block-8">
               <h1 class="heading-12">{{ texts.-15ec34e6 }}</h1>
             </div>
-            <p class="paragraph-7">{{ texts.-273d1b58 }}</p>
+            <p class="paragraph-7">{{ texts.5fd1255d }}</p>
           </div>
         </div>
       </div>
@@ -168,7 +176,7 @@ background:rgb(148, 148, 148);
               <div class="div-block-8">
                 <h1>{{ texts.53ce9c8c }}</h1>
               </div>
-              <p class="paragraph-4">{{ texts.34b0b9ff }}</p>
+              <p class="paragraph-4">{{ texts.-7ad004b2 }}</p>
             </div>
           </section>
         </div>
@@ -178,7 +186,7 @@ background:rgb(148, 148, 148);
               <div class="div-block-8">
                 <h1>{{ texts.5c724c48 }}</h1>
               </div>
-              <p class="paragraph-5">{{ texts.-6cc43573 }}<br></p>
+              <p class="paragraph-5">{{ texts.15b4c4b0 }}<br></p>
             </div>
           </section>
         </div>
@@ -188,7 +196,7 @@ background:rgb(148, 148, 148);
               <div class="div-block-8">
                 <h1>{{ texts.5aac7102 }}</h1>
               </div>
-              <p class="paragraph-6">{{ texts.50a5834d }}</p>
+              <p class="paragraph-6">{{ texts.c428842 }}</p>
             </div>
           </section>
         </div>
@@ -198,7 +206,7 @@ background:rgb(148, 148, 148);
               <div class="div-block-8">
                 <h1>{{ texts.64ece089 }}</h1>
               </div>
-              <p class="paragraph-7">{{ texts.-273d1b58 }}</p>
+              <p class="paragraph-7">{{ texts.5fd1255d }}</p>
             </div>
           </section>
         </div>
@@ -223,12 +231,14 @@ background:rgb(148, 148, 148);
         </div>
         {%- assign collection = collections.client-reviews | sort: "-created-on" -%}<div class="collection-list-wrapper-2 w-dyn-list">
           {%- unless collection.length == 0 -%}<div fs-cmsslider-element="list" role="list" class="collection-list-2 w-dyn-items">
-            {%- for item in collection -%}<div role="listitem" class="collection-item-2 w-dyn-item">
-              <div>{{ item.data.title }}</div>
-              <div>
-                <p class="paragraph-3">{{ texts.22 }}</p>
-                <p class="paragraph-3">{{ item.data.f_review }}</p>
-                <p class="paragraph-3">{{ texts.22 }}</p>
+            {%- for item in collection -%}<div role="listitem" class="w-dyn-item">
+              <div class="slider-content">
+                <div class="text-block-3">{{ item.data.title }}</div>
+                <div>
+                  <p class="paragraph-3">{{ texts.22 }}</p>
+                  <p class="paragraph-3">{{ item.data.f_review }}</p>
+                  <p class="paragraph-3">{{ texts.22 }}</p>
+                </div>
               </div>
             </div>{%- endfor -%}
           </div>{%- endunless -%}
@@ -256,14 +266,14 @@ background:rgb(148, 148, 148);
                 <h3 class="heading-5">{{ texts.-2f65af18 }}</h3><img src="{{ images.-104357c.url }}" loading="lazy" alt="{{ images.-104357c.alt | trim | escape }}" class="dropdown-icon">
               </div>
               <div class="div-block-55 div-block-56" data-ix="default-dropdown-position">
-                <p>{{ texts.6d2d3f18 }}</p>
+                <p>{{ texts.-147668cf }}</p>
               </div>
             </div>
           </div>
           <div class="dropdown" data-ix="dropdown-tuggle">
             <div class="dropdown-list">
               <div class="dropdown-toggle">
-                <h3 class="heading-5">{{ texts.-39f9df8e }}</h3><img src="{{ images.-104357c.url }}" loading="lazy" alt="{{ images.-104357c.alt | trim | escape }}" class="dropdown-icon">
+                <h3 class="heading-5">{{ texts.4f344452 }}</h3><img src="{{ images.-104357c.url }}" loading="lazy" alt="{{ images.-104357c.alt | trim | escape }}" class="dropdown-icon">
               </div>
               <div class="div-block-55 div-block-56" data-ix="default-dropdown-position">
                 <p>{{ texts.29fe47 }}</p>
@@ -276,17 +286,17 @@ background:rgb(148, 148, 148);
                 <h3 class="heading-5">{{ texts.-19896a74 }}</h3><img src="{{ images.-104357c.url }}" loading="lazy" alt="{{ images.-104357c.alt | trim | escape }}" class="dropdown-icon">
               </div>
               <div class="div-block-55 div-block-56" data-ix="default-dropdown-position">
-                <p>{{ texts.-35e84c30 }}</p>
+                <p>{{ texts.-7de72ea }}</p>
               </div>
             </div>
           </div>
           <div class="dropdown" data-ix="dropdown-tuggle">
             <div class="dropdown-list">
               <div class="dropdown-toggle">
-                <h3 class="heading-5">{{ texts.-4ef5b9a1 }}</h3><img src="{{ images.-104357c.url }}" loading="lazy" alt="{{ images.-104357c.alt | trim | escape }}" class="dropdown-icon">
+                <h3 class="heading-5">{{ texts.4dd1ae7f }}</h3><img src="{{ images.-104357c.url }}" loading="lazy" alt="{{ images.-104357c.alt | trim | escape }}" class="dropdown-icon">
               </div>
               <div class="div-block-55 div-block-56" data-ix="default-dropdown-position">
-                <p>{{ texts.-16635781 }}</p>
+                <p>{{ texts.-3d7883ed }}</p>
               </div>
             </div>
           </div>
@@ -296,14 +306,14 @@ background:rgb(148, 148, 148);
                 <h3 class="heading-5">{{ texts.-3248f83b }}</h3><img src="{{ images.-104357c.url }}" loading="lazy" alt="{{ images.-104357c.alt | trim | escape }}" class="dropdown-icon">
               </div>
               <div class="div-block-55 div-block-56" data-ix="default-dropdown-position">
-                <p>{{ texts.3e1a82 }}</p>
+                <p>{{ texts.7406e697 }}</p>
               </div>
             </div>
           </div>
           <div class="dropdown" data-ix="dropdown-tuggle">
             <div class="dropdown-list">
               <div class="dropdown-toggle">
-                <h3 class="heading-5">{{ texts.-19edbd7c }}</h3><img src="{{ images.-104357c.url }}" loading="lazy" alt="{{ images.-104357c.alt | trim | escape }}" class="dropdown-icon">
+                <h3 class="heading-5">{{ texts.-398e302c }}</h3><img src="{{ images.-104357c.url }}" loading="lazy" alt="{{ images.-104357c.alt | trim | escape }}" class="dropdown-icon">
               </div>
               <div class="div-block-55 div-block-56" data-ix="default-dropdown-position">
                 <p>{{ texts.-715507c3 }}</p>
@@ -377,7 +387,23 @@ background:rgb(148, 148, 148);
 </style>
   <!--  [Attributes by True Media Player] Audio Player Plugin  -->
   <script src="https://trueaudioplayer.b-cdn.net/true-audio-player@1.1.1.min.js" type="text/javascript"></script>
-  <script src="https://code.trulycustom.ca/css/soft-particles/runner.js" type="text/javascript"></script>
+  <!--  Script for slider sizing  -->
+  <script>
+	const slider = document.querySelector('.slider');
+	const sliderContents = document.querySelectorAll('.slider-content');
+	const sliderHeight = window.getComputedStyle(slider).height;
+	sliderContents.forEach((sliderContent) => {
+  	sliderContent.style.height = sliderHeight;
+	});
+</script>
+  <script>
+	window.addEventListener('load', function() {
+  	setTimeout(function() {
+    var button = document.querySelector('.sp-pause');
+    button.click();
+  	}, 100);
+	});
+</script>{{ texts.-1974c41d }}<script src="https://code.trulycustom.ca/css/soft-particles/runner.js" type="text/javascript"></script>
   <style>
 	.brand {
   	align-items: center;
