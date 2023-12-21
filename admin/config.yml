@@ -589,16 +589,6 @@ collections:
             label: Text
             name: '-2370feea'
             widget: string
-          - hint: |-
-              Original text: 
-                setInterval(function() {
-                var button = document.querySelector('.sp-play');
-                button.click();
-                }, 180000);
-                , key: -1974c41d
-            label: Text
-            name: '-1974c41d'
-            widget: text
           - hint: 'Original text: Colors, key: 78a3a990'
             label: Text
             name: 78a3a990
@@ -671,17 +661,6 @@ collections:
             label: Text
             name: '-cacf814'
             widget: string
-          - hint: |-
-              Original text: 
-                setInterval(function() {
-                var button = document.querySelector('.sp-play');
-                button.click();
-                }, 180000);
-
-              , key: 7b0cbfc7
-            label: Text
-            name: 7b0cbfc7
-            widget: text
           - hint: "Original text: Hello, my name is\_, key: -1bb357d1"
             label: Text
             name: '-1bb357d1'
@@ -801,33 +780,7 @@ collections:
             widget: hidden
             default: Images
           - label: Image
-            name: i6dbfd645
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
             name: 404e29bd
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '404e4005'
             widget: object
             fields:
               - name: url
