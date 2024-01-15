@@ -42,13 +42,13 @@ background:rgb(148, 148, 148);
       <div tmplayer-init="true" class="sp-track-wrapper-3">
         <div class="sp-track-3">
           <div class="sp-controla-wrapper-2">
-            <div tmplayer-button="pause" audio="play" class="sp-play bg-music w-embed"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--iconoir" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+            <div audio="pause" class="sp-play bg-music w-embed"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--iconoir" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
                 <g fill="none" stroke="currentColor" stroke-width="1.5">
                   <path d="M1 13.857v-3.714a2 2 0 0 1 2-2h2.9a1 1 0 0 0 .55-.165l6-3.956a1 1 0 0 1 1.55.835v14.286a1 1 0 0 1-1.55.835l-6-3.956a1 1 0 0 0-.55-.165H3a2 2 0 0 1-2-2Z"></path>
                   <path stroke-linecap="round" stroke-linejoin="round" d="M17.5 7.5S19 9 19 11.5s-1.5 4-1.5 4m3-11S23 7 23 11.5s-2.5 7-2.5 7"></path>
                 </g>
               </svg></div>
-            <div tmplayer-button="play" audio="pause" class="sp-pause bg-music w-embed"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--iconoir" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+            <div audio="play" class="sp-pause bg-music w-embed"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--iconoir" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
                 <g fill="none" stroke="currentColor" stroke-width="1.5">
                   <path stroke-linecap="round" stroke-linejoin="round" d="m18 14l2-2m2-2l-2 2m0 0l-2-2m2 2l2 2"></path>
                   <path d="M2 13.857v-3.714a2 2 0 0 1 2-2h2.9a1 1 0 0 0 .55-.165l6-3.956a1 1 0 0 1 1.55.835v14.286a1 1 0 0 1-1.55.835l-6-3.956a1 1 0 0 0-.55-.165H4a2 2 0 0 1-2-2Z"></path>
@@ -137,8 +137,8 @@ background:rgb(148, 148, 148);
                 <div class="div-block-37">
                   <h3 class="heading-10">{{ texts.7f2745d8 }}</h3>
                   <div>{{ texts.1709da29 }}</div>
-                </div><input type="text" class="text-field w-input" maxlength="256" name="name" data-name="Name" placeholder="Full Name" id="name" required=""><input type="email" class="text-field w-input" maxlength="256" name="email" data-name="Email" placeholder="Email Address" id="email" required="">
-                <div fs-cmsselect-element="text-value" class="hidden">{{ f_member-email }}</div><select id="Receiver-Email-2" name="Receiver-Email" data-name="Receiver Email" required="" fs-cmsselect-element="select" class="hidden w-select"></select><input type="tel" class="text-field w-input" maxlength="256" name="Phone-Number" data-name="Phone Number" placeholder="Phone Number" id="Phone-Number" required=""><textarea id="Message" name="Message" maxlength="5000" data-name="Message" placeholder="Your message goes here..." required="" class="textarea w-input"></textarea><input type="submit" value="Submit" data-wait="Please wait..." class="button w-button">
+                </div><input class="text-field w-input" maxlength="256" name="name" data-name="Name" placeholder="Full Name" type="text" id="name" required=""><input class="text-field w-input" maxlength="256" name="email" data-name="Email" placeholder="Email Address" type="email" id="email" required="">
+                <div fs-cmsselect-element="text-value" class="hidden">{{ f_member-email }}</div><select id="Receiver-Email-2" name="Receiver-Email" data-name="Receiver Email" required="" fs-cmsselect-element="select" class="hidden w-select"></select><input class="text-field w-input" maxlength="256" name="Phone-Number" data-name="Phone Number" placeholder="Phone Number" type="tel" id="Phone-Number" required=""><textarea id="Message" name="Message" maxlength="5000" data-name="Message" placeholder="Your message goes here..." required="" class="textarea w-input"></textarea><input type="submit" data-wait="Please wait..." class="button w-button" value="Submit">
               </form>
               <div class="success-message w-form-done">
                 <div class="div-block-43 div-block-44 div-block-45 div-block-46 div-block-47 div-block-48">
