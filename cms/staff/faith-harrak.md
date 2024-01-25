@@ -4,7 +4,7 @@ created-on: 2023-10-19T01:57:50.955Z
 updated-on: 2023-11-30T19:51:01.241Z
 published-on: 2023-11-30T20:01:53.478Z
 f_profile-photo:
-  url: /assets/images/main-canvas-651cc3e5d5b80f9efa2b1a42.jpg
+  url: /assets/images/faith-2.jpg
   alt: null
 f_intro-text: Hello, welcome to our website! I am here to help make your
   starting process as smooth as possible. I have been serving at Reflections for
