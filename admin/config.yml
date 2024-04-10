@@ -87,6 +87,156 @@ collections:
             name: additional_tags
             widget: text
             required: false
+  - name: topics
+    label: Topics
+    folder: cms/topics
+    create: true
+    identifier_field: name
+    extension: md
+    slug: '{{slug}}'
+    fields:
+      - hint: ''
+        name: title
+        label: Name
+        widget: string
+        required: true
+      - hint: ''
+        name: created-on
+        label: Created On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: updated-on
+        label: Updated On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: published-on
+        label: Published On
+        widget: datetime
+        required: false
+      - label: Tags
+        widget: hidden
+        name: tags
+        default: topics
+      - label: Layout
+        widget: hidden
+        name: layout
+        default: '[topics].html'
+      - label: Publish Date
+        name: date
+        widget: datetime
+      - *ref_0
+  - name: blog
+    label: Blog Posts
+    folder: cms/blog
+    create: true
+    identifier_field: name
+    extension: md
+    slug: '{{slug}}'
+    fields:
+      - hint: ''
+        name: title
+        label: Name
+        widget: string
+        required: true
+      - hint: ''
+        name: created-on
+        label: Created On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: updated-on
+        label: Updated On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: published-on
+        label: Published On
+        widget: datetime
+        required: false
+      - label: Post Body
+        name: body
+        widget: markdown
+        required: false
+      - hint: A summary of the blog post that appears on blog post grid
+        name: f_post-summary
+        label: Post Summary
+        widget: text
+        required: true
+      - hint: ''
+        name: f_image
+        label: Image
+        widget: object
+        required: true
+        fields:
+          - hint: ''
+            name: url
+            label: Image
+            widget: image
+            required: true
+            allow_multiple: false
+          - hint: Image Alt
+            name: alt
+            label: alt
+            widget: string
+            required: false
+      - hint: ''
+        name: f_topic
+        label: Main Topic
+        widget: relation
+        required: true
+        collection: topics
+        value_field: cms/topics/{{slug}}.md
+        search_fields:
+          - slug
+          - name
+        display_fields:
+          - title
+        multiple: false
+      - hint: ''
+        name: f_read-time-in-minutes
+        label: Read Time in Minutes
+        widget: number
+        required: true
+      - hint: ''
+        name: f_author
+        label: Author
+        widget: relation
+        required: true
+        collection: staff
+        value_field: cms/staff/{{slug}}.md
+        search_fields:
+          - slug
+          - name
+        display_fields:
+          - title
+        multiple: false
+      - hint: ''
+        name: f_related-topics
+        label: Related Topics
+        widget: relation
+        required: false
+        collection: topics
+        value_field: cms/topics/{{slug}}.md
+        search_fields:
+          - slug
+          - name
+        display_fields:
+          - title
+        multiple: true
+      - label: Tags
+        widget: hidden
+        name: tags
+        default: blog
+      - label: Layout
+        widget: hidden
+        name: layout
+        default: '[blog].html'
+      - label: Publish Date
+        name: date
+        widget: datetime
+      - *ref_0
   - name: client_reviews
     label: Client Reviews
     folder: cms/client-reviews
@@ -442,9 +592,9 @@ collections:
             label: Text
             name: 15b4c4b0
             widget: text
-          - hint: 'Original text: life skills impowered, key: -5441d2fa'
+          - hint: 'Original text: life skills Empowered, key: -2de16f1e'
             label: Text
-            name: '-5441d2fa'
+            name: '-2de16f1e'
             widget: string
           - hint: >-
               Original text: So many are great at work, but struggle with life
@@ -494,6 +644,30 @@ collections:
           - hint: 'Original text: No items found., key: 3d503d2b'
             label: Text
             name: 3d503d2b
+            widget: string
+          - hint: 'Original text: Recent Blogs, key: 20c130c'
+            label: Text
+            name: 20c130c
+            widget: string
+          - hint: 'Original text: Want to Learn More?, key: 2f417c39'
+            label: Text
+            name: 2f417c39
+            widget: string
+          - hint: 'Original text: We recommend these for you!, key: -5ed40554'
+            label: Text
+            name: '-5ed40554'
+            widget: string
+          - hint: "Original text: \_min read, key: 55c12744"
+            label: Text
+            name: 55c12744
+            widget: string
+          - hint: 'Original text: Read more, key: 31997f7f'
+            label: Text
+            name: 31997f7f
+            widget: string
+          - hint: 'Original text: View all, key: 4b09c9c6'
+            label: Text
+            name: 4b09c9c6
             widget: string
           - hint: 'Original text: Frequently Asked Questions, key: -475b7d60'
             label: Text
@@ -589,78 +763,6 @@ collections:
             label: Text
             name: '-2370feea'
             widget: string
-          - hint: 'Original text: Colors, key: 78a3a990'
-            label: Text
-            name: 78a3a990
-            widget: string
-          - hint: 'Original text: Primary, key: 5075a5e2'
-            label: Text
-            name: 5075a5e2
-            widget: string
-          - hint: 'Original text: Hex: #2A1D3A, key: -6d4381ee'
-            label: Text
-            name: '-6d4381ee'
-            widget: string
-          - hint: 'Original text: Hex: #5D3C85, key: -67f9cc02'
-            label: Text
-            name: '-67f9cc02'
-            widget: string
-          - hint: 'Original text: Hex: #5C407D, key: -6807b687'
-            label: Text
-            name: '-6807b687'
-            widget: string
-          - hint: 'Original text: Hex: #332D41, key: -6c537def'
-            label: Text
-            name: '-6c537def'
-            widget: string
-          - hint: 'Original text: Hex: #1D76D7, key: -6ecb8c59'
-            label: Text
-            name: '-6ecb8c59'
-            widget: string
-          - hint: 'Original text: Hex: #7119CB, key: -659ce63d'
-            label: Text
-            name: '-659ce63d'
-            widget: string
-          - hint: 'Original text: Hex: #FFFFFF, key: -4ad28a5e'
-            label: Text
-            name: '-4ad28a5e'
-            widget: string
-          - hint: 'Original text: Secondary, key: 46b69154'
-            label: Text
-            name: 46b69154
-            widget: string
-          - hint: 'Original text: Hex: #939FB4, key: -62133265'
-            label: Text
-            name: '-62133265'
-            widget: string
-          - hint: 'Original text: Desktop, key: -3ff7d804'
-            label: Text
-            name: '-3ff7d804'
-            widget: string
-          - hint: 'Original text: Heading H1, key: -cacf819'
-            label: Text
-            name: '-cacf819'
-            widget: string
-          - hint: 'Original text: Heading H2, key: -cacf818'
-            label: Text
-            name: '-cacf818'
-            widget: string
-          - hint: 'Original text: Heading H3, key: -cacf817'
-            label: Text
-            name: '-cacf817'
-            widget: string
-          - hint: 'Original text: Heading H4, key: -cacf816'
-            label: Text
-            name: '-cacf816'
-            widget: string
-          - hint: 'Original text: Heading H5, key: -cacf815'
-            label: Text
-            name: '-cacf815'
-            widget: string
-          - hint: 'Original text: Heading H6, key: -cacf814'
-            label: Text
-            name: '-cacf814'
-            widget: string
           - hint: "Original text: Hello, my name is\_, key: -1bb357d1"
             label: Text
             name: '-1bb357d1'
@@ -717,9 +819,55 @@ collections:
             label: Text
             name: '-f5c4b5f'
             widget: string
-          - hint: 'Original text: Blogs are Coming Soon, key: 676c4e3f'
+          - hint: 'Original text: Latest Blog Posts, key: -6d263812'
             label: Text
-            name: 676c4e3f
+            name: '-6d263812'
+            widget: string
+          - hint: >-
+              Original text: Explore our blog for insightful articles on mental
+              health and personal growth., key: -27462dde
+            label: Text
+            name: '-27462dde'
+            widget: string
+          - hint: 'Original text: Show All, key: -106ffa02'
+            label: Text
+            name: '-106ffa02'
+            widget: string
+          - hint: 'Original text: Previous, key: -4811e0e9'
+            label: Text
+            name: '-4811e0e9'
+            widget: string
+          - hint: 'Original text: Load More, key: -3943e5b1'
+            label: Text
+            name: '-3943e5b1'
+            widget: string
+          - hint: 'Original text: Link Copied!, key: -1d200049'
+            label: Text
+            name: '-1d200049'
+            widget: string
+          - hint: 'Original text: •, key: 2022'
+            label: Text
+            name: '2022'
+            widget: string
+          - hint: "Original text: \_Minute Read, key: -6028387e"
+            label: Text
+            name: '-6028387e'
+            widget: string
+          - hint: 'Original text: Blogs, key: 3d4d4f1'
+            label: Text
+            name: 3d4d4f1
+            widget: string
+          - hint: 'Original text: Share this post, key: -2c79323f'
+            label: Text
+            name: '-2c79323f'
+            widget: string
+          - hint: 'Original text: Related Blogs, key: -216a5764'
+            label: Text
+            name: '-216a5764'
+            widget: string
+          - hint: 'Original text: Like What You Read?, key: 31117335'
+            label: Text
+            name: '31117335'
             widget: string
       - label: Links
         name: links
@@ -760,6 +908,10 @@ collections:
           - hint: 'Original link: #Skills, key: -30ce79bb'
             label: Link
             name: '-30ce79bb'
+            widget: string
+          - hint: 'Original link: #, key: 23'
+            label: Link
+            name: '23'
             widget: string
           - hint: >-
               Original link: https://maps.app.goo.gl/hwuSCCvvAtZGxfE88, key:
@@ -975,6 +1127,19 @@ collections:
                 widget: string
                 required: false
           - label: Image
+            name: '-2044eef5'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
             name: '-104357c'
             widget: object
             fields:
@@ -1066,7 +1231,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-3bcf3af'
+            name: '0'
             widget: object
             fields:
               - name: url
@@ -1079,7 +1244,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-2237a79b'
+            name: 658a1156
             widget: object
             fields:
               - name: url
@@ -1092,7 +1257,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-6087357f'
+            name: 470f5d6a
             widget: object
             fields:
               - name: url
@@ -1105,7 +1270,33 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-7a700be7'
+            name: '-2b1beb3c'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 4abef31c
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-4bdad2c2'
             widget: object
             fields:
               - name: url
