@@ -1,25 +1,24 @@
 ---
-title: Faith Harrak
-created-on: 2023-10-19T01:57:50.955Z
-updated-on: 2023-11-30T19:51:01.241Z
-published-on: 2023-11-30T20:01:53.478Z
-f_profile-photo:
-  url: /assets/images/faith-2.jpg
-  alt: null
-f_intro-text: Hello, welcome to our website! I am here to help make your
-  starting process as smooth as possible. I have been serving at Reflections for
-  24 years, where so many clients' issues have been resolved. I am honored to be
-  part of your support circle.
+f_intro-text: >-
+  Hello, welcome to our website! I am here to help make your starting process as
+  smooth as possible. I have been working at Reflections for 24 years, where so
+  many clients' issues have been resolved. I am honored to be part of your
+  support circle.
 f_member-email: RccEmailUs1@gmail.com
-layout: "[staff].html"
+title: Faith Harrak
 slug: faith-harrak
+f_profile-photo:
+  url: >-
+    https://uploads-ssl.webflow.com/64daac64da36b81d66272f9a/656e1bf45d5e8a894eb10187_main-canvas-651cc3e5d5b80f9efa2b1a42.jpg
+  alt: null
+updated-on: '2023-12-07T15:30:41.419Z'
+created-on: '2023-10-19T01:57:50.955Z'
+published-on: '2023-12-07T15:41:21.770Z'
 f_label: Office Manager
+layout: '[staff].html'
 tags: staff
-date: 2023-12-04T18:45:18.340Z
 ---
-My name is Faith Harrak. I am the office manager of Reflections Counseling Center. My hope is that you will experience our family style of safety and acceptance when you come to visit us. 
-I have been working for RCC since 1999, 24 years later I have learned so much about people. Life is full of surprises & adventures. 
-My personal journey starts with me earning my diploma/degree in Mechanical Engineering in 1988 at the top of my class and was offered a position at the university as a field instructor. Instead, I migrated to the U.S. working in various fields not related to my degree. 
-I personally delight in the balance of adventure and well-being. Faith, Nature, Music, and Decor are the essentials of everyday life. I find such joy in experiencing the connection between these elements.
-My business journey has been forever evolving. In 1999 I was offered an Administration opportunity at Reflections, within one year, I become the Office Manager, and it has been a fun ride ever since. 
-My Spiritual journey bas been the best thing that ever happened to me! I accepted Christ as my Savior back in 2004, and I have been serving God's people and Reflections joyfully. I am so thankful to God for His Divine plans! I want to assure you that I will give you my best effort to take care of your concerns from the first call to the last goodbye. Simply said, I find myself admiring every person that walks through our door. I am so honored to serve clients who are taking the steps to acknowledge their issues and positively work on solving them! Please give us a call and let us be part of your journey to healing.
+
+Hi again! You are looking at a small window of our home at work. I can say life is full of surprises and adventures. In 1988 I earned my degree at the top of my class. Therefore, I was offered an instructor position at the university in my field. Instead, I migrated to the U.S. working in various fields not related to my degree. I was offered an opportunity as an office manager at Reflections and it has been a fun ride ever since. I accepted Christ as my Savior back in 2004, and I have been serving God's people and Reflections joyfully. I am so thankful to God for His divine plans! I want to assure you that I will give you my best effort to take care of your concerns from the first call to the last goodbye. Working at Reflections, I found myself admiring every person that walks through our door. You may ask why? I'd say I am honored to serve clients who are taking the steps to acknowledge their issues and positively solve their problems which improves their lives as well as those around them!
+
+Please give us a call and let us be part of your journey to healing.

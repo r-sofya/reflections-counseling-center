@@ -1,21 +1,22 @@
 ---
-title: Dr. Thomas Kelley
-created-on: 2023-10-19T01:55:45.322Z
-updated-on: 2023-11-30T21:00:06.705Z
-published-on: 2023-11-30T20:01:53.478Z
-f_profile-photo:
-  url: /assets/images/2022-tom-1.jpg
-  alt: null
-f_intro-text: Dr. Tom Kelley, a Licensed Clinical Psychologist with 20+ years at
-  Reflections Counseling Center, helps individuals escape chronic stress,
-  anxiety, anger, and depression. Experience optimal mental health. Don't wait,
-  start your journey to a happy life with Dr. Tom.
+f_intro-text: >-
+  Dr. Tom Kelley is a licensed clinical psychologist with 20+ years at
+  Reflections Counseling Center. He helps individuals escape chronic stress,
+  anxiety, anger and depression. Begin experiencing optimal mental health. Don't
+  wait, start your journey to a happy life with Dr. Kelley.
 f_member-email: Aa5216@wayne.edu
-layout: "[staff].html"
+title: Dr. Thomas Kelley
 slug: thomas-kelley
+f_profile-photo:
+  url: >-
+    https://uploads-ssl.webflow.com/64daac64da36b81d66272f9a/656e1bfd831710d3d96d9f2f_2022%20Tom%201.jpg
+  alt: null
+updated-on: '2023-12-07T15:28:26.140Z'
+created-on: '2023-10-19T01:55:45.322Z'
+published-on: '2023-12-07T15:41:21.770Z'
 f_label: Ph.D
+layout: '[staff].html'
 tags: staff
-date: 2023-12-04T18:46:14.445Z
 ---
 
 **Dr. Thomas Kelley**
@@ -23,7 +24,7 @@ date: 2023-12-04T18:46:14.445Z
 
 ‍
 
-Thomas M. Kelley, Ph.D. is a Michigan Licensed Clinical Psychologist and has been practicing at Reflections for over 20 years. Tom works with adolescents and adults experiencing a variety of discomforting symptoms such as depression, anxiety, obsessive-compulsive, low self-esteem, trauma, grief, and anger. Tom is also an Emeritus Professor and researcher at the Emeritus Academy at Wayne State University. Tom has written 3 books and has had over 100 research papers on happiness and well-being published in respected academic journals. Tom is an in-network Blue Cross & Medicare Provider and accepts many other medical insurances.
+Thomas M. Kelley, Ph.D. is a Michigan Licensed Clinical Psychologist and has been practicing at Reflections for over 20 years. Tom works with adolescents and adults experiencing a variety of discomforting symptoms such as depression, anxiety, obsessive-compulsive disorder, low self-esteem, trauma, grief, and anger. Dr. Kelley is also an Emeritus Professor and researcher at the Emeritus Academy at Wayne State University. Dr. Kelley has written 3 books and has had over 100 research papers on happiness and well-being published in respected academic journals. Dr. Kelley is an in-network Blue Cross & Medicare Provider and accepts many other medical insurances.
 
 ‍
 
