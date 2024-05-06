@@ -16,7 +16,7 @@ f_image:
   url: /assets/images/download_cleanup.png
   alt: ""
 f_topic: cms/topics/case-study.md
-f_read-time-in-minutes: 12
+f_read-time-in-minutes: 4
 f_author: cms/staff/rcc.md
 f_related-topics:
   - cms/topics/mental-health.md
