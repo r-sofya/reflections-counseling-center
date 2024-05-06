@@ -763,6 +763,34 @@ collections:
             label: Text
             name: '-2370feea'
             widget: string
+          - hint: 'Original text: Privacy Policy, key: -3fbde6f6'
+            label: Text
+            name: '-3fbde6f6'
+            widget: string
+          - hint: 'Original text: Cookie Policy, key: 63af666e'
+            label: Text
+            name: 63af666e
+            widget: string
+          - hint: 'Original text: Cookie Preference, key: -1e3c7fe9'
+            label: Text
+            name: '-1e3c7fe9'
+            widget: string
+          - hint: >-
+              Original text: Do Not Sell or Share My Personal information, key:
+              -360b2392
+            label: Text
+            name: '-360b2392'
+            widget: string
+          - hint: >-
+              Original text: Limit the Use Of My Sensitive Personal Information,
+              key: 66afcdee
+            label: Text
+            name: 66afcdee
+            widget: string
+          - hint: 'Original text: Data Subject Access Request, key: 4069467d'
+            label: Text
+            name: 4069467d
+            widget: string
           - hint: "Original text: Hello, my name is\_, key: -1bb357d1"
             label: Text
             name: '-1bb357d1'
@@ -778,6 +806,14 @@ collections:
           - hint: 'Original text: I’d love to hear from you!, key: 1709da29'
             label: Text
             name: 1709da29
+            widget: string
+          - hint: 'Original text: I agree to the , key: 35162749'
+            label: Text
+            name: '35162749'
+            widget: string
+          - hint: 'Original text: privacy policy, key: 329660ca'
+            label: Text
+            name: 329660ca
             widget: string
           - hint: >-
               Original text: Thank you! Your submission has been received!, key:
@@ -922,6 +958,27 @@ collections:
           - hint: 'Original link: tel:(248)524-0050, key: 4de542d'
             label: Link
             name: 4de542d
+            widget: string
+          - hint: >-
+              Original link:
+              https://app.termly.io/document/privacy-policy/5a73b723-a358-42e1-9c52-f28de85f7469,
+              key: -6b0b4764
+            label: Link
+            name: '-6b0b4764'
+            widget: string
+          - hint: >-
+              Original link:
+              https://app.termly.io/document/cookie-policy/c1781975-9b42-4ba8-9609-e4c025d6059b,
+              key: 2591ace4
+            label: Link
+            name: 2591ace4
+            widget: string
+          - hint: >-
+              Original link:
+              https://app.termly.io/notify/5a73b723-a358-42e1-9c52-f28de85f7469,
+              key: 445ab4fe
+            label: Link
+            name: 445ab4fe
             widget: string
       - label: Images
         name: images

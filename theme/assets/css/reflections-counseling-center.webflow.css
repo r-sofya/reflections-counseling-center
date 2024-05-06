@@ -23,6 +23,51 @@
   display: flex;
 }
 
+.w-checkbox {
+  margin-bottom: 5px;
+  padding-left: 20px;
+  display: block;
+}
+
+.w-checkbox:before {
+  content: " ";
+  grid-area: 1 / 1 / 2 / 2;
+  display: table;
+}
+
+.w-checkbox:after {
+  content: " ";
+  clear: both;
+  grid-area: 1 / 1 / 2 / 2;
+  display: table;
+}
+
+.w-checkbox-input {
+  float: left;
+  margin: 4px 0 0 -20px;
+  line-height: normal;
+}
+
+.w-checkbox-input--inputType-custom {
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  width: 12px;
+  height: 12px;
+}
+
+.w-checkbox-input--inputType-custom.w--redirected-checked {
+  background-color: #3898ec;
+  background-image: var(--image-i5cec3e91);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-color: #3898ec;
+}
+
+.w-checkbox-input--inputType-custom.w--redirected-focus {
+  box-shadow: 0 0 3px 1px #3898ec;
+}
+
 .w-form-formradioinput--inputType-custom {
   border: 1px solid #ccc;
   border-radius: 50%;
@@ -86,51 +131,6 @@
   grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
   display: grid;
-}
-
-.w-checkbox {
-  margin-bottom: 5px;
-  padding-left: 20px;
-  display: block;
-}
-
-.w-checkbox:before {
-  content: " ";
-  grid-area: 1 / 1 / 2 / 2;
-  display: table;
-}
-
-.w-checkbox:after {
-  content: " ";
-  clear: both;
-  grid-area: 1 / 1 / 2 / 2;
-  display: table;
-}
-
-.w-checkbox-input {
-  float: left;
-  margin: 4px 0 0 -20px;
-  line-height: normal;
-}
-
-.w-checkbox-input--inputType-custom {
-  border: 1px solid #ccc;
-  border-radius: 2px;
-  width: 12px;
-  height: 12px;
-}
-
-.w-checkbox-input--inputType-custom.w--redirected-checked {
-  background-color: #3898ec;
-  background-image: var(--image-i5cec3e91);
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-color: #3898ec;
-}
-
-.w-checkbox-input--inputType-custom.w--redirected-focus {
-  box-shadow: 0 0 3px 1px #3898ec;
 }
 
 body {
@@ -246,7 +246,6 @@ ul {
 }
 
 .secondary-text {
-  background-color: var(--secondary-text);
   color: var(--secondary-text);
 }
 
@@ -465,9 +464,13 @@ ul {
 }
 
 .page-wrapper.footer {
+  grid-column-gap: 1.5rem;
+  grid-row-gap: 1.5rem;
   background-image: none;
+  flex-flow: column;
   min-height: auto;
   padding-bottom: 70px;
+  display: flex;
 }
 
 .bg-shade {
@@ -714,12 +717,12 @@ ul {
 }
 
 .footer-link:hover {
-  box-shadow: inset 0 -2px 0 0 var(--link);
+  box-shadow: inset 0 -2px 0 0 var(--secondary-text);
 }
 
 .div-block-25 {
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
+  grid-column-gap: .5rem;
+  grid-row-gap: .5rem;
   flex-direction: column;
   align-items: center;
   display: flex;
@@ -3449,6 +3452,37 @@ ul {
   display: none;
 }
 
+.html-embed, .div {
+  width: 1000px;
+  height: 1000px;
+}
+
+.html-embed-2 {
+  color: var(--text);
+}
+
+.quick-stack-11 {
+  text-align: center;
+}
+
+.legal-links {
+  grid-column-gap: 1.5rem;
+  grid-row-gap: 1.5rem;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+}
+
+.legal-links._1 {
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.checkbox-field {
+  width: 100%;
+}
+
 html.w-mod-js [data-ix="blue-icon-initial-state"] {
   opacity: 0;
 }
@@ -4599,21 +4633,21 @@ html.w-mod-js [data-ix="default-dropdown-position"] {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
-#w-node-_07fcace4-ff04-4b5d-baab-de7bf7f7ffd1-adab564c {
+#w-node-ca372b4f-d2a8-5607-3c31-ce7f0611d421-adab564c {
   grid-template-rows: auto;
   grid-template-columns: .5fr 1fr;
 }
 
-#w-node-_07fcace4-ff04-4b5d-baab-de7bf7f7ffd2-adab564c, #w-node-_07fcace4-ff04-4b5d-baab-de7bf7f7ffd3-adab564c {
+#w-node-ca372b4f-d2a8-5607-3c31-ce7f0611d422-adab564c, #w-node-ca372b4f-d2a8-5607-3c31-ce7f0611d426-adab564c {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
-#w-node-f746352c-4f49-a1ba-600d-cde7218b832f-adab564c {
+#w-node-ca372b4f-d2a8-5607-3c31-ce7f0611d436-adab564c {
   grid-template-rows: auto;
   grid-template-columns: .5fr 1fr;
 }
 
-#w-node-f746352c-4f49-a1ba-600d-cde7218b8330-adab564c, #w-node-f746352c-4f49-a1ba-600d-cde7218b8334-adab564c {
+#w-node-ca372b4f-d2a8-5607-3c31-ce7f0611d437-adab564c, #w-node-ca372b4f-d2a8-5607-3c31-ce7f0611d43b-adab564c {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
@@ -4650,7 +4684,7 @@ html.w-mod-js [data-ix="default-dropdown-position"] {
     grid-template-columns: 1.75fr 1.75fr;
   }
 
-  #w-node-_07fcace4-ff04-4b5d-baab-de7bf7f7ffd1-adab564c, #w-node-f746352c-4f49-a1ba-600d-cde7218b832f-adab564c {
+  #w-node-ca372b4f-d2a8-5607-3c31-ce7f0611d421-adab564c, #w-node-ca372b4f-d2a8-5607-3c31-ce7f0611d436-adab564c {
     grid-template-rows: auto;
     grid-template-columns: auto;
   }
