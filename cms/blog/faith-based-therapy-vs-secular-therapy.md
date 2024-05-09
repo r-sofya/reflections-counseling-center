@@ -13,7 +13,7 @@ f_post-summary: Discover the unique benefits and differences between faith-based
   into the impacts of these distinct therapies on patients’ lives and help you
   make an informed choice for your well-being.
 f_image:
-  url: /assets/images/download_cleanup.png
+  url: /assets/images/thumbnial-compressed.jpg
   alt: ""
 f_topic: cms/topics/case-study.md
 f_read-time-in-minutes: 4
