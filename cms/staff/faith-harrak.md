@@ -9,7 +9,7 @@ title: Faith Harrak
 slug: faith-harrak
 f_profile-photo:
   url: >-
-    https://uploads-ssl.webflow.com/64daac64da36b81d66272f9a/656e1bf45d5e8a894eb10187_main-canvas-651cc3e5d5b80f9efa2b1a42.jpg
+    /assets/external/656e1bf45d5e8a894eb10187_main-canvas-651cc3e5d5b80f9efa2b1a42.jpg
   alt: null
 updated-on: '2023-12-07T15:30:41.419Z'
 created-on: '2023-10-19T01:57:50.955Z'

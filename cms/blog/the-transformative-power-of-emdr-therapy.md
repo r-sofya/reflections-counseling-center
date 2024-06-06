@@ -8,7 +8,7 @@ f_post-summary: >-
 slug: the-transformative-power-of-emdr-therapy
 f_image:
   url: >-
-    https://uploads-ssl.webflow.com/64daac64da36b81d66272f9a/6616d3ac7e8dababbc3139b5_78dd1a70-47eb-4b76-b71f-ce79b0af2522.jpg
+    /assets/external/6616d3ac7e8dababbc3139b5_78dd1a70-47eb-4b76-b71f-ce79b0af2522.jpg
   alt: null
 f_related-topics:
   - cms/topics/case-study.md

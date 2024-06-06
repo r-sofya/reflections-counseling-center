@@ -225,6 +225,11 @@ collections:
         display_fields:
           - title
         multiple: true
+      - hint: ''
+        name: f_seo
+        label: SEO
+        widget: text
+        required: true
       - label: Tags
         widget: hidden
         name: tags
@@ -1067,7 +1072,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-1ae49dc8'
+            name: '-3afb26a1'
             widget: object
             fields:
               - name: url
@@ -1301,7 +1306,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 658a1156
+            name: '-3bcf3af'
             widget: object
             fields:
               - name: url
@@ -1314,7 +1319,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 470f5d6a
+            name: '-2237a79b'
             widget: object
             fields:
               - name: url
@@ -1327,7 +1332,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-2b1beb3c'
+            name: '-6087357f'
             widget: object
             fields:
               - name: url
@@ -1340,7 +1345,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 4abef31c
+            name: '-7a700be7'
             widget: object
             fields:
               - name: url
@@ -1365,4 +1370,5 @@ collections:
                 label: Image Alt
                 widget: string
                 required: false
+local_backend: true
 publish_mode: editorial_workflow

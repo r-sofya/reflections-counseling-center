@@ -9,7 +9,7 @@ title: Michael Govan
 slug: michael-govan
 f_profile-photo:
   url: >-
-    https://uploads-ssl.webflow.com/64daac64da36b81d66272f9a/656e1c0784ab4ab19f0da2ae_main-canvas-65654f15209aacd286f3ddbc.jpeg
+    /assets/external/656e1c0784ab4ab19f0da2ae_main-canvas-65654f15209aacd286f3ddbc.jpeg
   alt: null
 updated-on: '2023-12-16T14:03:15.659Z'
 created-on: '2023-10-05T02:53:44.940Z'
