@@ -15,9 +15,15 @@ f_related-topics:
   - cms/topics/mental-health.md
 f_author: cms/staff/rcc.md
 f_topic: cms/topics/emdr-therapy.md
-updated-on: '2024-04-10T18:00:15.388Z'
+updated-on: '2024-06-13T21:11:09.541Z'
 created-on: '2024-04-10T17:38:47.721Z'
-published-on: '2024-04-10T18:00:32.209Z'
+published-on: '2024-06-14T01:59:55.088Z'
+f_seo: >-
+  Discover the power of EMDR therapy, a groundbreaking approach to overcoming
+  trauma and stress. Developed by Dr. Francine Shapiro, EMDR has proven
+  effective for PTSD, anxiety, and more. Book your session with specialist
+  Michael Govan and embark on a journey to recovery. Experience rapid relief and
+  reclaim your mental well-being with our expert-guided, eight-phase treatment.
 layout: '[blog].html'
 tags: blog
 ---

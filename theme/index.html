@@ -40,6 +40,7 @@ background:rgb(148, 148, 148);
   {{ settings.site.header_additional_content }}{%- include "partials/_site-css-variables" -%}<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script><style>.w-video.w-embed {
             aspect-ratio: 16 / 9;
         }</style></head><body><audio id="myAudio" src="/assets/external/109449469-beatitudes-piano-cinematic-sou.mp3" loop=""></audio>
+  <script src="https://code.trulycustom.ca/css/soft-particles/particles.js" type="text/javascript"></script>
 
 
   <div class="background">
@@ -501,7 +502,36 @@ background:rgb(148, 148, 148);
   	sliderContent.style.height = sliderHeight;
 	});
 </script>
-  <script src="https://code.trulycustom.ca/css/soft-particles/runner.js" type="text/javascript"></script>
+  <script>
+document.addEventListener("DOMContentLoaded", async () => {
+  try {
+    // Load the CSS file
+    const cssResponse = await fetch("https://code.trulycustom.ca/css/soft-particles/style.css");
+    const cssText = await cssResponse.text();
+    const styleElement = document.createElement("style");
+    styleElement.textContent = cssText;
+    document.head.appendChild(styleElement);
+    // Load the HTML file
+    const htmlResponse = await fetch("https://code.trulycustom.ca/css/soft-particles/particles.html");
+    const htmlText = await htmlResponse.text();
+    document.body.insertAdjacentHTML("beforeend", htmlText);
+    // Overrides display="none" CSS for .tc-particles
+    function injectCSS(cssContent) {
+      const overrideStyleTag = document.createElement('style');
+      const particlesSelector = '.tc-particles';
+      const overrideRule = `${particlesSelector} { display: block !important; }`;
+      // Combine the original CSS content with the override rule
+      const combinedCSS = cssContent + overrideRule;
+      overrideStyleTag.innerHTML = combinedCSS;
+      document.head.appendChild(overrideStyleTag);
+    }
+    // Call the injectCSS function with the loaded CSS
+    injectCSS(cssText);
+  } catch (error) {
+    console.error("Error loading resources:", error);
+  }
+});
+</script>
   <style>
 	.brand {
   	align-items: center;

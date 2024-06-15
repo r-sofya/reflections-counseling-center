@@ -230,6 +230,11 @@ collections:
         label: SEO
         widget: text
         required: true
+      - hint: ''
+        name: f_citations
+        label: Citations
+        widget: text
+        required: false
       - label: Tags
         widget: hidden
         name: tags
