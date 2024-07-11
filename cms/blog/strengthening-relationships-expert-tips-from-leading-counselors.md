@@ -8,7 +8,7 @@ f_post-summary: Learn proven strategies for improving communication, resolving
   relationships and enhance your mental health.
 f_image:
   url: /assets/images/pexels-kindelmedia-7149182.jpg
-f_topic: cms/topics/case-study.md
+f_topic: cms/topics/relationships.md
 f_read-time-in-minutes: 3
 f_author: cms/staff/rcc.md
 f_related-topics:
