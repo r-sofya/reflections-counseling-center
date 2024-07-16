@@ -1,31 +1,30 @@
 ---
-f_read-time-in-minutes: 4
 title: The Transformative Power of EMDR Therapy
-f_post-summary: >-
-  Discover the healing potential of EMDR (Eye Movement Desensitization and
-  Reprocessing) therapy, a scientifically-backed treatment for trauma and
-  stress-related conditions.‍
-slug: the-transformative-power-of-emdr-therapy
+created-on: 2024-04-10T17:38:47.721Z
+updated-on: 2024-06-13T21:11:09.541Z
+published-on: 2024-06-14T01:59:55.088Z
+f_post-summary: Discover the healing potential of EMDR (Eye Movement
+  Desensitization and Reprocessing) therapy, a scientifically-backed treatment
+  for trauma and stress-related conditions.‍
 f_image:
-  url: >-
-    /assets/external/6616d3ac7e8dababbc3139b5_78dd1a70-47eb-4b76-b71f-ce79b0af2522.jpg
+  url: /assets/external/6616d3ac7e8dababbc3139b5_78dd1a70-47eb-4b76-b71f-ce79b0af2522.jpg
   alt: null
+f_topic: cms/topics/emdr-therapy.md
+f_read-time-in-minutes: 4
+f_author: cms/staff/rcc.md
 f_related-topics:
   - cms/topics/case-study.md
   - cms/topics/mental-health.md
-f_author: cms/staff/rcc.md
-f_topic: cms/topics/emdr-therapy.md
-updated-on: '2024-06-13T21:11:09.541Z'
-created-on: '2024-04-10T17:38:47.721Z'
-published-on: '2024-06-14T01:59:55.088Z'
-f_seo: >-
-  Discover the power of EMDR therapy, a groundbreaking approach to overcoming
-  trauma and stress. Developed by Dr. Francine Shapiro, EMDR has proven
-  effective for PTSD, anxiety, and more. Book your session with specialist
-  Michael Govan and embark on a journey to recovery. Experience rapid relief and
-  reclaim your mental well-being with our expert-guided, eight-phase treatment.
-layout: '[blog].html'
+f_seo: Discover the power of EMDR therapy, a groundbreaking approach to
+  overcoming trauma and stress. Developed by Dr. Francine Shapiro, EMDR has
+  proven effective for PTSD, anxiety, and more. Book your session with
+  specialist Michael Govan and embark on a journey to recovery. Experience rapid
+  relief and reclaim your mental well-being with our expert-guided, eight-phase
+  treatment.
 tags: blog
+layout: "[blog].html"
+slug: the-transformative-power-of-emdr-therapy
+date: 2024-07-16T15:57:24.789Z
 ---
 
 **Introduction to EMDR Therapy**
