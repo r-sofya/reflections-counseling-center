@@ -6,7 +6,7 @@ published-on: 2024-09-07T15:02:24.923Z
 f_post-summary: Discover practical mindfulness techniques to reduce stress and
   enhance mental health with insights from Reflections Counseling Center.
 f_image:
-  url: /assets/images/015d7057-2a80-4fe5-94d3-71415760c0c1_cleanup.png
+  url: /assets/images/015d7057-2a80-4fe5-94d3-71415760c0c1_cleanup-1-.jpg
 f_topic: cms/topics/case-study.md
 f_read-time-in-minutes: 3
 f_author: cms/staff/rcc.md
