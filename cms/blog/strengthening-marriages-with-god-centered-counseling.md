@@ -1,8 +1,8 @@
 ---
 title: Strengthening Marriages with God-Centered Counseling
-created-on: 2025-03-07T17:13:13.575Z
-updated-on: 2025-03-07T17:13:13.584Z
-published-on: 2025-03-07T17:13:13.590Z
+created-on: 2025-01-01T17:13:13.575Z
+updated-on: 2025-01-01T17:13:13.584Z
+published-on: 2025-01-01T17:13:13.590Z
 f_post-summary: This blog highlights how God-centered counseling strengthens
   marriages by combining biblical principles with therapeutic techniques to
   foster a Christ-centered relationship.
