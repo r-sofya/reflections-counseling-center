@@ -6,7 +6,8 @@ f_intro-text: >-
   euismod, imperdiet justo id, consequat nunc. Nullam eget metus eu nisl.
 title: Reflections Counseling Center
 f_profile-photo:
-  url: /assets/external/65fdbf2e06822e8aa9472daf_webclip.jpg
+  url: >-
+    https://cdn.prod.website-files.com/64daac64da36b81d66272f9a/65fdbf2e06822e8aa9472daf_Webclip.jpg
   alt: null
 slug: rcc
 updated-on: '2024-03-22T17:30:58.273Z'

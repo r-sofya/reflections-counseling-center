@@ -8,7 +8,8 @@ f_member-email: Aa5216@wayne.edu
 title: Dr. Thomas Kelley
 slug: thomas-kelley
 f_profile-photo:
-  url: /assets/external/656e1bfd831710d3d96d9f2f_202220tom201.jpg
+  url: >-
+    https://cdn.prod.website-files.com/64daac64da36b81d66272f9a/656e1bfd831710d3d96d9f2f_2022%20Tom%201.jpg
   alt: null
 updated-on: '2023-12-07T15:28:26.140Z'
 created-on: '2023-10-19T01:55:45.322Z'
