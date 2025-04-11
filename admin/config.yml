@@ -470,6 +470,14 @@ collections:
             name: title
             widget: hidden
             default: Texts
+          - hint: 'Original text: Click here to play some, key: 47c6c473'
+            label: Text
+            name: 47c6c473
+            widget: string
+          - hint: 'Original text: relaxing music!, key: -7a718cd6'
+            label: Text
+            name: '-7a718cd6'
+            widget: string
           - hint: >-
               Original text:
               https://reflectionscounselingcenter.netlify.app/assets/images/109449469-beatitudes-piano-cinematic-sou.mp3,
@@ -923,6 +931,10 @@ collections:
             name: title
             widget: hidden
             default: Links
+          - hint: 'Original link: #, key: 23'
+            label: Link
+            name: '23'
+            widget: string
           - hint: 'Original link: /, key: 2f'
             label: Link
             name: 2f
@@ -954,10 +966,6 @@ collections:
           - hint: 'Original link: #Skills, key: -30ce79bb'
             label: Link
             name: '-30ce79bb'
-            widget: string
-          - hint: 'Original link: #, key: 23'
-            label: Link
-            name: '23'
             widget: string
           - hint: >-
               Original link: https://maps.app.goo.gl/hwuSCCvvAtZGxfE88, key:
@@ -1311,7 +1319,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-3bcf3af'
+            name: 658a1156
             widget: object
             fields:
               - name: url
@@ -1324,7 +1332,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-2237a79b'
+            name: 470f5d6a
             widget: object
             fields:
               - name: url
@@ -1337,7 +1345,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-6087357f'
+            name: '-2b1beb3c'
             widget: object
             fields:
               - name: url
@@ -1350,7 +1358,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-7a700be7'
+            name: 4abef31c
             widget: object
             fields:
               - name: url
@@ -1375,5 +1383,4 @@ collections:
                 label: Image Alt
                 widget: string
                 required: false
-local_backend: true
 publish_mode: editorial_workflow
