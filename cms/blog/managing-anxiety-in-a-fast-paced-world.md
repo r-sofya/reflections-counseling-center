@@ -1,8 +1,26 @@
 ---
-f_read-time-in-minutes: 3
 title: Managing Anxiety in a Fast-Paced World
-f_citations: >-
-  American Journal of Psychiatry. Psychiatry Online. (n.d.).
+created-on: 2024-06-14T01:59:48.357Z
+updated-on: 2024-06-14T18:53:27.565Z
+published-on: 2024-06-14T18:56:00.118Z
+f_post-summary: Explore practical tips for overcoming anxiety with Reflections
+  Counseling Center’s guide on CBT, exercise, nutrition, and mindfulness.
+  Embrace a balanced approach to mental health in our hectic world.
+f_image:
+  url: https://cdn.prod.website-files.com/64daac64da36b81d66272f9a/666ba3dd999cf380d2c662d4_b5c06704-2490-4c60-b07c-276b99027a36.jpg
+  alt: null
+f_topic: cms/topics/anxiety.md
+f_read-time-in-minutes: 3
+f_author: cms/staff/rcc.md
+f_seo: Explore practical tips for overcoming anxiety with Reflections Counseling
+  Center’s guide on CBT, exercise, nutrition, and mindfulness. Embrace a
+  balanced approach to mental health in our hectic world.
+layout: "[blog].html"
+slug: managing-anxiety-in-a-fast-paced-world
+f_related-topics:
+  - cms/topics/cbt.md
+  - cms/topics/mental-health.md
+f_citations: "American Journal of Psychiatry. Psychiatry Online. (n.d.).
   https://psychiatryonline.org/ American Psychological Association. (n.d.).
   Anxiety. American Psychological Association.
   https://www.apa.org/topics/anxiety Anxiety. Harvard Health. (n.d.).
@@ -11,33 +29,12 @@ f_citations: >-
   https://www.sciencedirect.com/journal/journal-of-anxiety-disorders Mayo
   Foundation for Medical Education and Research. (2018, May 4). Anxiety
   disorders. Mayo Clinic.
-  https://www.mayoclinic.org/diseases-conditions/anxiety/symptoms-causes/syc-20350961
-  U.S. Department of Health and Human Services. (n.d.). Anxiety disorders.
-  National Institute of Mental Health.
-  https://www.nimh.nih.gov/health/topics/anxiety-disorders 
-f_post-summary: >-
-  Explore practical tips for overcoming anxiety with Reflections Counseling
-  Center’s guide on CBT, exercise, nutrition, and mindfulness. Embrace a
-  balanced approach to mental health in our hectic world.
-f_seo: >-
-  Explore practical tips for overcoming anxiety with Reflections Counseling
-  Center’s guide on CBT, exercise, nutrition, and mindfulness. Embrace a
-  balanced approach to mental health in our hectic world.
-slug: managing-anxiety-in-a-fast-paced-world
-f_image:
-  url: >-
-    https://cdn.prod.website-files.com/64daac64da36b81d66272f9a/666ba3dd999cf380d2c662d4_b5c06704-2490-4c60-b07c-276b99027a36.jpg
-  alt: null
-f_related-topics:
-  - cms/topics/cbt.md
-  - cms/topics/mental-health.md
-f_author: cms/staff/rcc.md
-f_topic: cms/topics/anxiety.md
-updated-on: '2024-06-14T18:53:27.565Z'
-created-on: '2024-06-14T01:59:48.357Z'
-published-on: '2024-06-14T18:56:00.118Z'
-layout: '[blog].html'
+  https://www.mayoclinic.org/diseases-conditions/anxiety/symptoms-causes/syc-20\
+  350961 U.S. Department of Health and Human Services. (n.d.). Anxiety
+  disorders. National Institute of Mental Health.
+  https://www.nimh.nih.gov/health/topics/anxiety-disorders "
 tags: blog
+date: 2025-04-14T16:48:24.307Z
 ---
 
 Anxiety is a common challenge in today's fast-paced world, affecting millions of people globally. It can manifest as constant worry, tension, and a sense of unease that can interfere with daily life. Managing anxiety effectively is crucial for maintaining mental health and overall well-being. 
